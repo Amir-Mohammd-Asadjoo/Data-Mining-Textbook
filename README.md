@@ -1,41 +1,54 @@
 # Data Mining Notes
 
-> A comprehensive Persian-language course notebook and PDF collection for the **Data Mining** course at **Islamic Azad University, Shiraz Branch – Faculty of Computer Engineering**.
+> A comprehensive course-note collection for **Data Mining**, provided in Jupyter Notebook and PDF formats.
 
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 [![Format](https://img.shields.io/badge/Format-Jupyter%20Notebook%20%7C%20PDF-orange.svg)](https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes)
-[![Content](https://img.shields.io/badge/Content-Notes%20%7C%20Examples%20%7C%20Code-blue.svg)](https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes)
+[![Semester](https://img.shields.io/badge/Semester-Fall%202026-blue.svg)](https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes)
 
 ---
 
 ## Overview
 
-This repository contains the current public release of the **Data Mining** course notes prepared for the **first semester of the 1405–1406 academic year** at **Islamic Azad University, Shiraz Branch – Faculty of Computer Engineering**.
+This repository contains the current public release of the **Data Mining** course notes prepared for **Fall 2026**, corresponding to the **2026–2027 academic year**, at **Islamic Azad University, Shiraz Branch – Faculty of Computer Engineering**.
 
-The material is designed as a structured, concept-driven, mathematically supported, and implementation-oriented set of course notes rather than as a short summary of definitions.
+The notes are provided in two synchronized formats:
 
-The notes combine:
+- **Jupyter Notebook (`.ipynb`)** for interactive reading, mathematical notation, executable Python cells, visualizations, examples, and demonstrations.
+- **PDF (`.pdf`)** for linear reading, offline study, printing, annotation, and archival use.
 
-- Conceptual explanations
-- Intuition and analogies
-- Mathematical formulations
-- Step-by-step examples
-- Diagrams and visual explanations
-- Data visualizations
-- Python implementations
-- Machine learning examples
-- Data mining algorithms and workflows
-- Practical demonstrations inside Jupyter Notebook
+The notebooks are the primary interactive source of the material, while the PDFs provide a stable reading-oriented representation of the corresponding chapters.
 
-Every currently published chapter is distributed in two primary formats:
+The project is intended to be more than a compact list of definitions. Its structure combines conceptual explanations, intuition, mathematical formulations, examples, diagrams, visualizations, implementation-oriented demonstrations, and practical context throughout the published chapters.
 
-1. **Jupyter Notebook (`.ipynb`)**  
-   The interactive version of the notes, including Markdown explanations, mathematical notation, visualizations, images, and executable Python cells.
+---
 
-2. **PDF (`.pdf`)**  
-   The printable and linear-reading version of the same chapter.
+# Project Lineage
 
-The repository is intentionally organized around the course material itself. It is not a software package, application, or independent production codebase.
+## Version 2 of the Course Notes
+
+This repository is the **second version** of an earlier Data Mining course-note project.
+
+Although this release is formally a **Version 2**, it should not be understood as a minor revision or a simple continuation of the previous notes.
+
+The second version has been **substantially redesigned, rewritten, reorganized, expanded, and reworked**.
+
+Large portions of the material have been revisited from the ground up, including the structure of explanations, presentation of concepts, mathematical treatment, examples, visual elements, notebook organization, and practical demonstrations.
+
+As a result, Version 2 should be regarded as a **new and substantially reworked edition** of the course notes rather than merely an edited copy of Version 1.
+
+The relationship can therefore be summarized as:
+
+```text
+Version 1
+   │
+   │  Major restructuring, rewriting,
+   │  expansion, redesign, and reworking
+   ▼
+Version 2
+```
+
+Version 1 is the conceptual predecessor of this project, but the material published here represents the current Version 2 release.
 
 ---
 
@@ -43,45 +56,48 @@ The repository is intentionally organized around the course material itself. It 
 
 The current public release contains the following completed chapters:
 
-| Chapter | Status            | Notebook        | PDF           |
-| ------- | ----------------- | --------------- | ------------- |
-| 01      | Published         | `01/ch01.ipynb` | `01/ch01.pdf` |
-| 02      | Published         | `02/ch02.ipynb` | `02/ch02.pdf` |
-| 03      | Published         | `03/ch03.ipynb` | `03/ch03.pdf` |
-| 04      | Published         | `04/ch04.ipynb` | `04/ch04.pdf` |
-| 05      | Published         | `05/ch05.ipynb` | `05/ch05.pdf` |
-| 06      | Published         | `06/ch06.ipynb` | `06/ch06.pdf` |
-| 07      | Published         | `07/ch07.ipynb` | `07/ch07.pdf` |
-| 08      | Published         | `08/ch08.ipynb` | `08/ch08.pdf` |
-| 09      | Not published yet | —               | —             |
-| 10      | Published         | `10/ch10.ipynb` | `10/ch10.pdf` |
-| 11      | Not published yet | —               | —             |
-| 12      | Published         | `12/ch12.ipynb` | `12/ch12.pdf` |
+| Chapter | Status | Notebook | PDF |
+|---|---|---|---|
+| 01 | Published | `01/ch01.ipynb` | `01/ch01.pdf` |
+| 02 | Published | `02/ch02.ipynb` | `02/ch02.pdf` |
+| 03 | Published | `03/ch03.ipynb` | `03/ch03.pdf` |
+| 04 | Published | `04/ch04.ipynb` | `04/ch04.pdf` |
+| 05 | Published | `05/ch05.ipynb` | `05/ch05.pdf` |
+| 06 | Published | `06/ch06.ipynb` | `06/ch06.pdf` |
+| 07 | Published | `07/ch07.ipynb` | `07/ch07.pdf` |
+| 08 | Published | `08/ch08.ipynb` | `08/ch08.pdf` |
+| 09 | In progress / not published | — | — |
+| 10 | Published | `10/ch10.ipynb` | `10/ch10.pdf` |
+| 11 | In progress / not published | — | — |
+| 12 | Published | `12/ch12.ipynb` | `12/ch12.pdf` |
 
 ### Chapters 09 and 11
 
-Chapters **09** and **11** exist as part of the broader course-note project, but they are **not complete yet** and are therefore intentionally **not included in the current public release**.
+Chapters **09** and **11** are part of the broader Version 2 course-note project but are still under development.
 
-They are planned for future publication after the corresponding work is completed and prepared for release.
+They are intentionally excluded from the current public release.
 
-Their absence from this repository should not be interpreted as meaning that the course itself does not contain these topics. They are simply not part of the current published version.
+They will be added to the repository after their material has been completed and prepared for publication.
+
+Their absence from the current release is therefore intentional and should not be interpreted as an error or omission in the course structure.
 
 ---
 
 # Course Information
 
-| Field                  | Information                                   |
-| ---------------------- | --------------------------------------------- |
-| Course                 | Data Mining                                   |
-| University             | Islamic Azad University, Shiraz Branch        |
-| Faculty                | Faculty of Computer Engineering               |
-| Academic Year          | 1405–1406                                     |
-| Semester               | First Semester                                |
-| Instructor             | Dr. Amin Eskandari                            |
-| Primary Language       | Persian                                       |
-| Technical Terminology  | English terminology with Persian explanations |
-| Interactive Format     | Jupyter Notebook                              |
-| Reading / Print Format | PDF                                           |
+| Field | Information |
+|---|---|
+| Course | Data Mining |
+| University | Islamic Azad University, Shiraz Branch |
+| Faculty | Faculty of Computer Engineering |
+| Semester | Fall 2026 |
+| Academic Year | 2026–2027 |
+| Instructor | Dr. Amin Eskandari |
+| Primary Language | Persian |
+| Technical Terminology | English terminology with Persian explanations |
+| Interactive Format | Jupyter Notebook |
+| Reading / Print Format | PDF |
+| Edition | Version 2 |
 
 ---
 
@@ -91,7 +107,7 @@ Their absence from this repository should not be interpreted as meaning that the
 
 **Course Instructor**
 
-The instructor listed in the course notebooks is:
+The instructor listed in the course material is:
 
 **Dr. Amin Eskandari**
 
@@ -99,29 +115,30 @@ The instructor listed in the course notebooks is:
 
 # Authors and Design Team
 
-The following members are listed in the course notebooks as the design team responsible for preparing and organizing the material:
+The following members are identified in the course material as the design team responsible for preparing and organizing the notes:
 
 1. **Hamid Namjoo**
 2. **Amirhossein Hemmati**
 3. **Amir-Mohammad Asadjoo**
-4. **Ali Nikouan**
+4. **Ali Nikvan**
 5. **Reza Liaqat**
 6. **Alireza Moghaddas**
 7. **Golnoush Hosseinpour**
 8. **Elham Izadi**
 
-> The names above are transliterations of the names recorded in the original Persian course material. When official English spellings are available from the authors, they may be used in future repository metadata and citation records.
+> The names above follow the English transliterations used for the repository documentation. Official author-preferred spellings can be adopted in a future release if the authors provide them.
 
 ---
 
 # Table of Contents
 
 - [Overview](#overview)
+- [Project Lineage](#project-lineage)
+- [Version 2 of the Course Notes](#version-2-of-the-course-notes)
 - [Current Release](#current-release)
 - [Course Information](#course-information)
 - [Instructor](#instructor)
 - [Authors and Design Team](#authors-and-design-team)
-- [Table of Contents](#table-of-contents)
 - [Repository Statistics](#repository-statistics)
 - [Repository Structure](#repository-structure)
 - [Chapter 01 – Introduction](#chapter-01--introduction)
@@ -141,13 +158,20 @@ The following members are listed in the course notebooks as the design team resp
 - [PDF Format](#pdf-format)
 - [Running the Notebooks](#running-the-notebooks)
 - [Python Dependencies](#python-dependencies)
+- [Chapter-Level Dependency Overview](#chapter-level-dependency-overview)
+- [Python Version Information](#python-version-information)
 - [Images and External Assets](#images-and-external-assets)
-- [MovieLens-100K](#movielens-100k)
 - [License](#license)
 - [Copyright and Third-Party Material](#copyright-and-third-party-material)
 - [Citation](#citation)
-- [Contribution and Issue Reporting](#contribution-and-issue-reporting)
+- [Repository and GitHub](#repository-and-github)
+- [Recommended Git Hygiene](#recommended-git-hygiene)
+- [Release Philosophy](#release-philosophy)
 - [Future Releases](#future-releases)
+- [Quality and Accuracy](#quality-and-accuracy)
+- [Contribution and Issue Reporting](#contribution-and-issue-reporting)
+- [Frequently Asked Questions](#frequently-asked-questions)
+- [Contact and Permissions](#contact-and-permissions)
 - [Acknowledgment](#acknowledgment)
 
 ---
@@ -166,23 +190,23 @@ The current public release contains:
 - Approximately **51,406 lines of code** across the code cells of the published notebooks
 - **227 local image files**
 
-The statistics above describe the current published material and may change as the repository evolves.
+These statistics describe the current public release and may change as the repository evolves.
 
 ## Notebook Statistics by Chapter
 
-|   Chapter | Total Cells | Markdown Cells | Code Cells | PDF Pages |
-| --------: | ----------: | -------------: | ---------: | --------: |
-|        01 |         104 |             81 |         23 |        97 |
-|        02 |         208 |            162 |         46 |       163 |
-|        03 |         117 |             95 |         22 |       116 |
-|        04 |          84 |             70 |         14 |        86 |
-|        05 |          74 |             53 |         21 |       119 |
-|        06 |         118 |             82 |         36 |       186 |
-|        07 |         121 |             92 |         29 |       183 |
-|        08 |          79 |             56 |         23 |       115 |
-|        10 |          83 |             65 |         18 |       108 |
-|        12 |         107 |             76 |         31 |       120 |
-| **Total** |   **1,095** |        **832** |    **263** | **1,293** |
+| Chapter | Total Cells | Markdown Cells | Code Cells | PDF Pages |
+|---:|---:|---:|---:|---:|
+| 01 | 104 | 81 | 23 | 97 |
+| 02 | 208 | 162 | 46 | 163 |
+| 03 | 117 | 95 | 22 | 116 |
+| 04 | 84 | 70 | 14 | 86 |
+| 05 | 74 | 53 | 21 | 119 |
+| 06 | 118 | 82 | 36 | 186 |
+| 07 | 121 | 92 | 29 | 183 |
+| 08 | 79 | 56 | 23 | 115 |
+| 10 | 83 | 65 | 18 | 108 |
+| 12 | 107 | 76 | 31 | 120 |
+| **Total** | **1,095** | **832** | **263** | **1,293** |
 
 ---
 
@@ -229,7 +253,6 @@ data-mining-notes/
 ├── 06/
 │   ├── ch06.ipynb
 │   ├── ch06.pdf
-│   ├── ml-100k/
 │   └── src/
 │       └── images/
 │
@@ -258,7 +281,7 @@ data-mining-notes/
         └── images/
 ```
 
-The working ZIP used during preparation also contains Git metadata and Jupyter checkpoint directories. These are development artifacts and should **not** be committed to the new public repository.
+Development metadata and temporary notebook directories should not be committed to the public repository.
 
 Recommended exclusions include:
 
@@ -310,11 +333,9 @@ Recommended exclusions include:
 
 ## Chapter Focus
 
-The first chapter establishes the conceptual foundation of data mining.
+Chapter 1 establishes the conceptual foundation of data mining.
 
-It introduces the role of data mining inside the broader knowledge discovery process, surveys major data types and mining tasks, and connects data mining with related disciplines such as statistics, machine learning, database systems, and data science.
-
-The chapter also introduces major application areas and discusses the relationship between data mining and society.
+It introduces the role of data mining within knowledge discovery, surveys major data types and mining tasks, and discusses the relationship between data mining and fields such as statistics, machine learning, database technology, and data science.
 
 ---
 
@@ -377,11 +398,9 @@ The chapter also introduces major application areas and discusses the relationsh
 
 ## Chapter Focus
 
-Chapter 2 develops the foundations required to work with real-world data.
+Chapter 2 develops the foundations required to work with data in practical data-mining systems.
 
-It begins with attribute and data types, continues through descriptive statistics and similarity measures, and then moves into data quality, data cleaning, data integration, transformation, normalization, discretization, compression, sampling, and dimensionality reduction.
-
-The Notebook supplements the theory with mathematical notation, computational examples, visualizations, and Python-based demonstrations.
+It begins with data and attribute types, proceeds through descriptive statistics and similarity measures, and then addresses data quality, cleaning, integration, transformation, normalization, discretization, compression, sampling, and dimensionality reduction.
 
 ---
 
@@ -431,9 +450,7 @@ The Notebook supplements the theory with mathematical notation, computational ex
 
 ## Chapter Focus
 
-Chapter 3 focuses on the analytical infrastructure surrounding data mining.
-
-It covers data warehouses, data marts, data lakes, multidimensional data models, data cubes, schemas, measures, concept hierarchies, OLAP operations, indexing strategies, storage architectures, and data cube computation.
+Chapter 3 focuses on the analytical infrastructure surrounding data mining, including data warehouses, data marts, data lakes, multidimensional data models, data cubes, concept hierarchies, OLAP operations, indexing strategies, storage approaches, and data cube computation.
 
 ---
 
@@ -470,11 +487,7 @@ It covers data warehouses, data marts, data lakes, multidimensional data models,
 
 ## Chapter Focus
 
-Chapter 4 introduces frequent pattern mining and association analysis.
-
-The discussion begins with the market basket perspective and develops the concepts of frequent itemsets, closed itemsets, association rules, support, confidence, and related evaluation ideas.
-
-It then introduces Apriori, pattern-growth approaches, vertical representations, and methods for mining closed and maximal patterns.
+Chapter 4 introduces frequent-pattern mining and association analysis, progressing from the market-basket perspective to frequent itemsets, association rules, Apriori, pattern-growth methods, vertical representations, closed and maximal patterns, and pattern-evaluation measures.
 
 ---
 
@@ -526,11 +539,7 @@ It then introduces Apriori, pattern-growth approaches, vertical representations,
 
 ## Chapter Focus
 
-Chapter 5 extends the basic pattern-mining framework to more complex settings.
-
-The chapter covers multilevel and multidimensional associations, quantitative and high-dimensional patterns, rare and negative patterns, compressed and approximate patterns, top-k pattern discovery, constraint-based mining, sequential pattern mining, and subgraph pattern mining.
-
-It also introduces application-oriented examples that connect pattern mining techniques to text and software-related data.
+Chapter 5 extends pattern mining to more complex structures and constraints, including multilevel and multidimensional associations, quantitative and high-dimensional patterns, rare and negative patterns, compressed and approximate patterns, top-k patterns, constraint-based mining, sequential patterns, and subgraph patterns.
 
 ---
 
@@ -591,17 +600,9 @@ It also introduces application-oriented examples that connect pattern mining tec
 
 ## Chapter Focus
 
-Chapter 6 introduces supervised classification methods from fundamental models to ensemble approaches.
+Chapter 6 introduces supervised classification from fundamental models through ensemble techniques.
 
-The chapter covers decision trees, Bayes classifiers, k-nearest neighbors, case-based reasoning, linear and logistic models, perceptrons, evaluation methodologies, cross-validation, bootstrap, ROC analysis, and ensemble learning.
-
-## Dataset Used in the Working Materials
-
-The working version of Chapter 6 contains a `ml-100k` directory associated with the **MovieLens 100K** dataset.
-
-Because MovieLens is third-party material with its own terms, it should not automatically be treated as being covered by the license of this repository.
-
-See the dedicated [MovieLens-100K](#movielens-100k) section for details.
+It covers decision trees, Bayes classifiers, k-nearest neighbors, case-based reasoning, linear and logistic models, perceptrons, evaluation and selection methods, cross-validation, bootstrap, ROC analysis, and ensemble learning.
 
 ---
 
@@ -664,9 +665,7 @@ See the dedicated [MovieLens-100K](#movielens-100k) section for details.
 
 ## Chapter Focus
 
-Chapter 7 extends classification beyond the fundamental models presented in Chapter 6.
-
-It examines feature selection, Bayesian belief networks, support vector machines, rule-based and pattern-based classifiers, weakly supervised learning, rich data types, multiclass classification, metric learning, interpretability, genetic algorithms, and reinforcement learning.
+Chapter 7 extends classification to advanced modeling approaches, feature selection, Bayesian belief networks, SVMs, rule and pattern-based methods, weak supervision, classification over rich data types, multiclass learning, metric learning, interpretability, genetic algorithms, and reinforcement learning.
 
 ---
 
@@ -715,9 +714,7 @@ It examines feature selection, Bayesian belief networks, support vector machines
 
 ## Chapter Focus
 
-Chapter 8 introduces clustering as an unsupervised learning problem and develops partitioning, hierarchical, density-based, and grid-based approaches.
-
-The chapter also addresses practical questions such as determining the number of clusters and evaluating clustering quality using extrinsic and intrinsic criteria.
+Chapter 8 introduces clustering as an unsupervised-learning problem and examines partitioning, hierarchical, density-based, and grid-based approaches together with methods for assessing clustering tendency, choosing cluster counts, and evaluating cluster quality.
 
 ---
 
@@ -725,11 +722,9 @@ The chapter also addresses practical questions such as determining the number of
 
 **Status:** Not published yet.
 
-Chapter 9 exists within the broader course-note development plan, but the material is not considered complete enough for the current public release.
+Chapter 9 is part of Version 2 but is still under development.
 
-The chapter will be published in a future repository update once its content has been completed and prepared for release.
-
-No Chapter 9 Notebook or PDF is included in the current public repository.
+It is intentionally excluded from the current public release and will be added after the material has been completed and prepared for publication.
 
 ---
 
@@ -781,9 +776,7 @@ No Chapter 9 Notebook or PDF is included in the current public repository.
 
 ## Chapter Focus
 
-Chapter 10 introduces deep learning from the fundamentals of neural network training to modern deep architectures.
-
-The chapter covers backpropagation, training challenges, activation functions, adaptive learning rates, dropout, pretraining, cross-entropy, autoencoders, convolutional neural networks, recurrent neural networks, gated architectures, and graph neural networks.
+Chapter 10 introduces deep learning from neural-network fundamentals through modern deep architectures, covering backpropagation, training challenges, activation functions, adaptive learning, dropout, pretraining, cross-entropy, autoencoders, CNNs, RNNs, gated architectures, and GNNs.
 
 ---
 
@@ -791,11 +784,9 @@ The chapter covers backpropagation, training challenges, activation functions, a
 
 **Status:** Not published yet.
 
-Chapter 11 is part of the broader course-note project but is still under development.
+Chapter 11 is part of Version 2 but is still under development.
 
-It is intentionally excluded from the current public release and will be added after its content has been completed and prepared for publication.
-
-No Chapter 11 Notebook or PDF is included in the current public repository.
+It is intentionally excluded from the current public release and will be added after the material has been completed and prepared for publication.
 
 ---
 
@@ -840,52 +831,50 @@ No Chapter 11 Notebook or PDF is included in the current public repository.
 
 ## Chapter Focus
 
-Chapter 12 moves from established data mining techniques toward research directions and emerging application areas.
-
-It covers rich data types, text, spatial-temporal data, graphs and networks, sentiment and opinion mining, truth discovery, misinformation identification, propagation analysis, data augmentation, causality, AutoML, privacy-preserving mining, human-algorithm interaction, fairness, interpretability, robustness, and data mining for social good.
+Chapter 12 moves toward current research directions and emerging application areas, including rich data types, text, spatial-temporal data, graphs and networks, sentiment and opinion mining, truth discovery, misinformation identification, propagation, data augmentation, causality, AutoML, privacy-preserving data mining, human-algorithm interaction, fairness, interpretability, robustness, and data mining for social good.
 
 ---
 
 # Learning Approach
 
-The notes are designed around several complementary layers.
+The notes combine several complementary layers of learning.
 
 ## 1. Conceptual Understanding
 
-Definitions and mechanisms are explained in context rather than presented only as isolated terminology.
+Core concepts are presented in context rather than as isolated definitions.
 
 ## 2. Intuition
 
-Many topics are supported by analogies, practical interpretations, and explanatory examples intended to make abstract concepts easier to reason about.
+Abstract ideas are supported by explanatory descriptions and practical interpretations where appropriate.
 
 ## 3. Mathematical Formulation
 
-Where mathematical structure is central to a method, the Notebook includes equations and symbolic representations using mathematical notation.
+When mathematical structure is central to a method, equations and formal notation are included.
 
 ## 4. Visualization
 
-Diagrams, plots, charts, images, and other visual elements are used throughout the material to support conceptual understanding.
+Charts, diagrams, figures, and other visual elements are used throughout the material.
 
 ## 5. Implementation
 
-Many topics are connected to executable Python examples. This provides a bridge between the mathematical or algorithmic description and a working computational implementation.
+Many topics are accompanied by executable Python examples that connect theory with computation.
 
 ## 6. Application Context
 
-Examples are used to connect techniques to real-world data mining scenarios, including text, recommendation, business data, graphs, machine learning, and deep learning.
+Examples and scenarios are used to connect algorithms and concepts to practical data-mining settings.
 
 ---
 
 # Notebook Format
 
-The `.ipynb` files are the interactive form of the course notes.
+The `.ipynb` files are the interactive form of the notes.
 
-They contain a mixture of:
+They contain combinations of:
 
 - Markdown explanations
 - Mathematical notation
 - Structured headings
-- HTML/CSS-enhanced presentation elements
+- HTML/CSS-enhanced presentation
 - Images
 - Diagrams
 - Python code
@@ -893,9 +882,7 @@ They contain a mixture of:
 - Explanatory output
 - Examples and demonstrations
 
-## Why Jupyter Notebook?
-
-Jupyter Notebook makes it possible to keep several layers of the learning process in one document:
+The Notebook format keeps multiple layers of learning together:
 
 ```text
 Concept
@@ -911,28 +898,24 @@ Python implementation
 Visualization / output
 ```
 
-This makes the Notebook version particularly useful for readers who want to move between theory and implementation without switching to a separate programming environment.
-
 ---
 
 # PDF Format
 
 Each published chapter includes a corresponding PDF.
 
-The PDF version is intended for:
+The PDF format is intended for:
 
 - Linear reading
 - Printing
 - Offline study
-- Archiving
 - Annotation
-- Sharing under the repository license
+- Long-form review
+- Archival use
 
-The PDF and Notebook versions correspond to the same chapter-level organization.
+For interactive exploration and code execution, use the Notebook version.
 
-For interactive exploration and execution, use the Notebook.
-
-For reading and printing, use the PDF.
+For stable reading and printing, use the PDF version.
 
 ---
 
@@ -940,17 +923,17 @@ For reading and printing, use the PDF.
 
 ## Option 1 – View on GitHub
 
-Jupyter Notebook files can be opened directly on GitHub for reading.
+GitHub can render Jupyter Notebook files for reading.
 
-The rendered version is useful for:
+This is useful for:
 
 - Reading Markdown
-- Inspecting formulas
-- Viewing saved outputs
+- Inspecting equations
 - Browsing code
+- Viewing saved outputs
 - Navigating the chapter structure
 
-However, viewing a Notebook on GitHub does not provide a full interactive execution environment.
+GitHub rendering does not provide a full local execution environment.
 
 ## Option 2 – Run Locally with Jupyter
 
@@ -967,23 +950,23 @@ Start Jupyter Lab:
 jupyter lab
 ```
 
-or Jupyter Notebook:
+or:
 
 ```bash
 jupyter notebook
 ```
 
-Then open the Notebook corresponding to the chapter you want to study.
+Open the Notebook corresponding to the chapter you want to study.
 
-## Important Note
+## Execution Notes
 
-The current repository does not define one universally pinned environment that guarantees identical execution across every chapter.
+The repository is distributed as course material rather than as a fully pinned software environment.
 
-Different chapters use different combinations of Python packages.
+Different chapters use different subsets of Python packages.
 
-For reading purposes, no Python installation is required when using the PDF.
+For reading the PDFs, no Python installation is required.
 
-For execution, install the dependencies relevant to the chapter being studied.
+For executing code, install the dependencies required by the relevant chapter.
 
 ---
 
@@ -991,9 +974,9 @@ For execution, install the dependencies relevant to the chapter being studied.
 
 No single locked `requirements.txt` is currently provided for all chapters.
 
-The dependencies below were identified from the imports used by the published notebooks and represent the main libraries used throughout the current material.
+The following libraries appear across the published notebooks.
 
-## Core Scientific and Data Libraries
+## Scientific Computing and Data Analysis
 
 - `numpy`
 - `pandas`
@@ -1019,7 +1002,7 @@ The dependencies below were identified from the imports used by the published no
 
 - `mlxtend`
 
-## Geometry / Spatial Processing
+## Geometry and Spatial Processing
 
 - `shapely`
 
@@ -1027,14 +1010,14 @@ The dependencies below were identified from the imports used by the published no
 
 - `scikit-image`
 
-## Notebook / IPython
+## Notebook / Interactive Computing
 
 - `IPython`
 - Jupyter environment components
 
-## Standard Python Libraries
+## Standard Python Library
 
-The notebooks also use modules from the Python standard library where appropriate, including libraries such as:
+The notebooks also use standard-library modules where appropriate, including:
 
 - `re`
 - `math`
@@ -1048,15 +1031,13 @@ The notebooks also use modules from the Python standard library where appropriat
 - `zipfile`
 - `urllib`
 
-The exact package set required depends on the specific chapter and the cells the reader intends to execute.
+The exact dependency set depends on the chapter and on which cells the reader chooses to execute.
 
 ---
 
 # Chapter-Level Dependency Overview
 
 ## Chapter 01
-
-Main libraries observed:
 
 ```text
 numpy
@@ -1071,8 +1052,6 @@ mlxtend
 
 ## Chapter 02
 
-Main libraries observed:
-
 ```text
 numpy
 pandas
@@ -1085,8 +1064,6 @@ gensim
 
 ## Chapter 03
 
-Main libraries observed:
-
 ```text
 numpy
 pandas
@@ -1095,8 +1072,6 @@ seaborn
 ```
 
 ## Chapter 04
-
-Main libraries observed:
 
 ```text
 numpy
@@ -1107,8 +1082,6 @@ mlxtend
 ```
 
 ## Chapter 05
-
-Main libraries observed:
 
 ```text
 numpy
@@ -1121,8 +1094,6 @@ nltk
 
 ## Chapter 06
 
-Main libraries observed:
-
 ```text
 numpy
 pandas
@@ -1133,8 +1104,6 @@ scikit-learn
 
 ## Chapter 07
 
-Main libraries observed:
-
 ```text
 numpy
 pandas
@@ -1143,8 +1112,6 @@ seaborn
 ```
 
 ## Chapter 08
-
-Main libraries observed:
 
 ```text
 numpy
@@ -1157,8 +1124,6 @@ scikit-learn
 
 ## Chapter 10
 
-Main libraries observed:
-
 ```text
 numpy
 pandas
@@ -1168,8 +1133,6 @@ scikit-learn
 ```
 
 ## Chapter 12
-
-Main libraries observed:
 
 ```text
 numpy
@@ -1188,21 +1151,19 @@ textblob
 
 # Python Version Information
 
-Metadata embedded in the current notebooks shows that the course materials have been created or edited in several Python 3 environments, including:
+Metadata in the current notebooks shows that the material has been created or edited in multiple Python 3 environments, including:
 
 - Python 3.12.5
 - Python 3.13.5
 - Python 3.13.7
 
-This means that the current repository should be treated as a **course-material repository**, rather than as a reproducible software environment with one strictly pinned Python version.
-
-When reproducibility of a particular example is important, use an environment compatible with the chapter's dependency set.
+The repository should therefore be treated as course material rather than as a software project with a single locked interpreter version.
 
 ---
 
 # Images and External Assets
 
-Each published chapter has an associated:
+Each published chapter contains a local:
 
 ```text
 src/images/
@@ -1210,115 +1171,37 @@ src/images/
 
 directory.
 
-These local image files are referenced by the Notebook content and are included so that the visual presentation of the notebooks can be reproduced when the repository is opened locally.
+These images are referenced by the Notebook files and are included so that the visual presentation can be reproduced when the repository is viewed or run locally.
 
-The current working material contains **227 local image files** across the published chapters.
+The current public release contains **227 local image files**.
 
-## Important Copyright Note
+## Third-Party Image Notice
 
-A local copy of an image does **not** automatically mean that the image was originally created by the repository authors.
+A local image file is not automatically proof that the image was originally created by the authors.
 
-Some images may have been:
+Some visual assets may originate from external sources or may have been adapted from external material.
 
-- Created by the authors
-- Adapted from external material
-- Taken from external educational resources
-- Used as illustrative references
+Where third-party material is used, its original copyright, attribution, and licensing conditions remain applicable.
 
-Therefore, the repository license should not automatically be interpreted as relicensing every third-party image under CC BY-NC-ND.
-
-Where a third-party source requires attribution or imposes separate conditions, those conditions remain applicable.
-
----
-
-# Font and Presentation
-
-The Notebook presentation uses custom HTML/CSS formatting to support the Persian educational layout and visual organization.
-
-The working notebooks also reference the **Vazirmatn** typeface through an external stylesheet.
-
-One of the stylesheet references used by the material is:
-
-```text
-https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css
-```
-
-Because this is an external resource, offline execution or viewing without network access may cause the exact original font styling to differ.
-
-This does not affect the underlying educational text or Python code stored in the Notebook.
-
----
-
-# MovieLens-100K
-
-The working materials for Chapter 6 include a directory named:
-
-```text
-06/ml-100k/
-```
-
-This directory contains files associated with the **MovieLens 100K** dataset.
-
-MovieLens is third-party material and is not automatically covered by the repository's CC BY-NC-ND license.
-
-## Distribution Notice
-
-The dataset has its own terms and conditions.
-
-Therefore:
-
-- Do not assume that the repository license grants redistribution rights for MovieLens.
-- Do not present MovieLens as an original creation of the authors.
-- Retain the dataset's own attribution and conditions when the dataset is used.
-- Before making the repository public, verify that redistribution of the exact dataset files included in the working directory is permitted.
-
-## Recommended Public-Repository Practice
-
-For a clean public release, a future version may prefer one of the following approaches:
-
-1. Exclude the dataset files from Git and document where users can obtain them.
-2. Provide a setup instruction that asks the user to download the dataset independently.
-3. Keep only files that the relevant dataset license explicitly permits the repository to redistribute.
-
-The Notebook should then be adjusted, where necessary, so that users can configure the local dataset path.
-
----
-
-# Third-Party Material
-
-This repository may contain or reference material that is not wholly authored by the course-note team.
-
-Examples include:
-
-- Datasets
-- Illustrations
-- Photographs
-- Fonts
-- External references
-- Library-generated outputs
-- Publicly available examples
-
-Third-party material remains subject to the copyright, license, and usage terms of its respective owner.
-
-The repository's Creative Commons license applies only to the material for which the listed authors actually hold the rights necessary to grant that license.
+The repository license does not automatically relicense third-party works.
 
 ---
 
 # License
 
-The original course-note content in this repository is intended to be released under:
+The original course-note content covered by the repository's authorship is intended to be released under:
 
 **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**
 
-The legal terms are provided in the [`LICENSE`](./LICENSE) file.
+The applicable legal text is provided in [`LICENSE`](./LICENSE).
 
 Official license page:
 
 <https://creativecommons.org/licenses/by-nc-nd/4.0/>
 
-## In practical terms
+## Practical Summary
 
-For the material covered by this license:
+For material covered by this license:
 
 - You may read the material.
 - You may download the material.
@@ -1327,9 +1210,7 @@ For the material covered by this license:
 - Commercial use is not permitted under this license.
 - Distribution of adapted material is not permitted under this license.
 
-This section is a practical summary only.
-
-The legal terms in [`LICENSE`](./LICENSE) are authoritative.
+This section is only a practical summary. The legal terms in [`LICENSE`](./LICENSE) are authoritative.
 
 ---
 
@@ -1337,35 +1218,32 @@ The legal terms in [`LICENSE`](./LICENSE) are authoritative.
 
 ## Copyright
 
-Copyright in the original course-note material belongs to the authors identified in this repository, subject to any rights belonging to third-party contributors or source material.
+Copyright in the original material belongs to the authors identified in this repository, subject to any rights belonging to third-party material.
 
-Suggested notice:
+Suggested copyright notice:
 
 ```text
 Copyright © 2026
-Hamid Namjoo,
-Amirhossein Hemmati,
-Amir-Mohammad Asadjoo,
-Ali Nikouan,
-Reza Liaqat,
-Alireza Moghaddas,
-Golnoush Hosseinpour,
+
+Hamid Namjoo
+Amirhossein Hemmati
+Amir-Mohammad Asadjoo
+Ali Nikvan
+Reza Liaqat
+Alireza Moghaddas
+Golnoush Hosseinpour
 Elham Izadi
 ```
 
 ## Attribution
 
-If the original licensed material is redistributed, the authors should remain properly attributed in accordance with the license.
-
-Removing author identification from a redistributed copy does not turn the underlying work into a public-domain work.
+When the original licensed material is redistributed, appropriate author attribution must be retained according to the license.
 
 ## Derivative Works
 
-The repository uses the `ND` condition because the authors do not intend to grant a general permission to publicly distribute modified or adapted versions of the original course notes under the repository license.
+The `ND` condition reflects the authors' choice not to grant a general public license to distribute modified or adapted versions of the original course notes.
 
-Private technical modifications required to view or use a file are treated according to the license terms and applicable law.
-
-For permissions outside the license, contact the rights holders.
+For permissions outside the published license, contact the rights holders.
 
 ---
 
@@ -1378,25 +1256,25 @@ If this repository is used as a source in:
 - A report
 - A paper
 - A research project
-- Educational content
+- Educational material
 - A tutorial
 - A lecture
 
-please cite the original authors and link back to this repository.
+please cite the authors and link to the original repository.
 
 ## Suggested Citation
 
-> Namjoo, Hamid; Hemmati, Amirhossein; Asadjoo, Amir-Mohammad; Nikouan, Ali; Liaqat, Reza; Moghaddas, Alireza; Hosseinpour, Golnoush; Izadi, Elham. _Data Mining Notes_. Islamic Azad University, Shiraz Branch, Faculty of Computer Engineering, First Semester, Academic Year 1405–1406. GitHub repository: https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes
+> Hamid Namjoo; Amirhossein Hemmati; Amir-Mohammad Asadjoo; Ali Nikvan; Reza Liaqat; Alireza Moghaddas; Golnoush Hosseinpour; Elham Izadi. *Data Mining Notes, Version 2*. Islamic Azad University, Shiraz Branch, Faculty of Computer Engineering, Fall 2026, Academic Year 2026–2027. GitHub: https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes
 
 ## BibTeX
 
 ```bibtex
-@misc{data_mining_notes_1405_1406,
-  title        = {Data Mining Notes},
+@misc{data_mining_notes_v2_2026,
+  title        = {Data Mining Notes, Version 2},
   author       = {Namjoo, Hamid and
                   Hemmati, Amirhossein and
                   Asadjoo, Amir-Mohammad and
-                  Nikouan, Ali and
+                  Nikvan, Ali and
                   Liaqat, Reza and
                   Moghaddas, Alireza and
                   Hosseinpour, Golnoush and
@@ -1404,12 +1282,13 @@ please cite the original authors and link back to this repository.
   year         = {2026},
   note         = {Islamic Azad University, Shiraz Branch,
                   Faculty of Computer Engineering,
-                  First Semester, Academic Year 1405--1406},
+                  Fall 2026,
+                  Academic Year 2026--2027},
   url          = {https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes}
 }
 ```
 
-This BibTeX entry is a practical repository citation template. It is not intended to imply a DOI, formal journal publication, or independently registered bibliographic record.
+This BibTeX entry is a practical repository citation template and does not imply the existence of a DOI or separate formal publication record.
 
 ---
 
@@ -1447,104 +1326,88 @@ jupyter notebook
 
 # Recommended Git Hygiene
 
-The repository is a course-material repository and should not contain local development metadata.
+The repository is intended to contain the course material and relevant assets, not local development metadata.
 
-Do not commit:
+Avoid committing:
 
 ```text
 .git/
 .ipynb_checkpoints/
 __pycache__/
-*.pyc
+*.py[cod]
 ```
 
-A suitable `.gitignore` can be added before the first public commit.
+The current repository keeps Jupyter checkpoint directories out of source control through `.gitignore`.
 
 ---
 
 # Release Philosophy
 
-The repository is intended to preserve the course material in a stable and readable form while allowing future chapters to be added as they are completed.
+The public repository is intended to preserve and distribute the current Version 2 course material in a stable, readable, and transparent form.
 
-The current public release is therefore intentionally conservative:
+The release policy is intentionally simple:
 
 - Completed chapters are published.
-- Incomplete chapters are kept out of the public release.
-- Third-party assets are treated separately from original course content.
-- The source Notebook and PDF versions are kept together.
-- Author attribution is preserved explicitly.
-- Licensing information is kept in the repository root.
+- Chapters still under development remain private until they are ready.
+- Notebook and PDF versions are published together.
+- Author attribution is explicit.
+- Third-party material remains subject to its own rights.
+- Future versions may revise both content and repository organization.
 
 ---
 
 # Future Releases
 
-The repository is expected to evolve as the course-note project progresses.
+Future releases may include:
 
-Potential future updates may include:
-
-- Publication of Chapter 9 after completion
-- Publication of Chapter 11 after completion
+- Publication of Chapter 9
+- Publication of Chapter 11
 - Revisions to existing chapters
 - Corrections and typo fixes
 - Updated examples
 - Additional visualizations
-- More robust execution instructions
-- Dependency documentation
-- Improved reproducibility
-- Improved third-party attribution
-- Additional citation metadata
-- Release tags and version numbers
+- Additional implementations
+- Improved dependency documentation
+- Reproducibility improvements
+- More detailed citation metadata
+- GitHub release tags and version identifiers
 
-When new chapters are published, this README should be updated to reflect:
-
-- The new chapter status
-- New Notebook paths
-- New PDF paths
-- Updated repository statistics
-- Updated dependency information
-- Any new datasets or third-party materials
-- Any changes in the licensing or attribution structure
-
----
-
-# Versioning
-
-The repository may use Git history and future release tags to distinguish published versions of the course notes.
-
-A future release may follow a format such as:
-
-```text
-v1.0.0
-v1.1.0
-v2.0.0
-```
-
-The exact versioning policy can be established when the repository reaches a stable public-release workflow.
+When Chapters 9 and 11 are completed, this README should be updated accordingly.
 
 ---
 
 # Quality and Accuracy
 
-The notebooks and PDFs are course materials prepared for educational use.
+The notebooks and PDFs are educational course materials.
 
-Although care is taken in preparing the content, no educational document can guarantee the absence of typographical, mathematical, implementation, formatting, or explanatory errors.
+Care is taken during preparation, but educational material may still contain:
 
-Readers who identify an issue are encouraged to report it through GitHub Issues with:
+- Typographical errors
+- Formatting issues
+- Mathematical mistakes
+- Implementation issues
+- Broken links
+- Incomplete explanations
+
+Readers are encouraged to report issues through GitHub Issues.
+
+When reporting a technical problem, include:
 
 - Chapter number
-- Notebook or PDF reference
-- Relevant section
+- File path
+- Section
 - Description of the problem
-- Suggested correction, when applicable
+- Error message, if applicable
+- Python version
+- Relevant package versions
 
-When reporting code problems, include the relevant error message and the Python/library environment when possible.
+This information makes issues easier to reproduce and resolve.
 
 ---
 
 # Contribution and Issue Reporting
 
-This repository is primarily a published educational resource rather than an open-ended software-development project.
+This repository is primarily a published educational resource, not a general-purpose software project.
 
 However, technical and editorial feedback is welcome.
 
@@ -1560,192 +1423,124 @@ Examples include:
 - Code execution problems
 - Formatting inconsistencies
 - Incorrect chapter references
-- Citation or attribution issues
+- Citation issues
+- Attribution issues
 - Documentation problems
 
-## Suggested Issue Format
+## Suggested Issue Template
 
 ```text
 Chapter:
 File:
 Section:
 Problem:
-Expected behavior:
-Observed behavior:
+Expected:
+Observed:
 Suggested correction:
 Environment:
 ```
 
-The maintainers may use GitHub Issues as a tracking mechanism for future revisions.
-
----
-
-# Why Both Notebook and PDF?
-
-The two formats serve different purposes.
-
-## Notebook
-
-Best suited for:
-
-- Interactive study
-- Running Python cells
-- Inspecting implementation details
-- Exploring examples
-- Viewing output
-- Reproducing visualizations
-
-## PDF
-
-Best suited for:
-
-- Reading
-- Printing
-- Offline study
-- Annotation
-- Long-form review
-- Stable archival copies
-
-Keeping both formats in the same repository makes the course material accessible to readers with different workflows.
-
----
-
-# Educational Scope
-
-The published chapters cover a broad progression of topics including:
-
-```text
-Introduction
-    ↓
-Data and Preprocessing
-    ↓
-Data Warehousing and OLAP
-    ↓
-Pattern Mining
-    ↓
-Advanced Pattern Mining
-    ↓
-Classification
-    ↓
-Advanced Classification
-    ↓
-Cluster Analysis
-    ↓
-Deep Learning
-    ↓
-Data Mining Trends and Research Frontiers
-```
-
-Chapters 9 and 11 are currently under development and are intentionally excluded from this public release.
-
----
-
-# Quick Navigation
-
-| Chapter | Main Area                     | Notebook                | PDF                   |
-| ------- | ----------------------------- | ----------------------- | --------------------- |
-| 01      | Introduction                  | [Open](./01/ch01.ipynb) | [Open](./01/ch01.pdf) |
-| 02      | Data and Preprocessing        | [Open](./02/ch02.ipynb) | [Open](./02/ch02.pdf) |
-| 03      | Data Warehousing and OLAP     | [Open](./03/ch03.ipynb) | [Open](./03/ch03.pdf) |
-| 04      | Basic Pattern Mining          | [Open](./04/ch04.ipynb) | [Open](./04/ch04.pdf) |
-| 05      | Advanced Pattern Mining       | [Open](./05/ch05.ipynb) | [Open](./05/ch05.pdf) |
-| 06      | Basic Classification          | [Open](./06/ch06.ipynb) | [Open](./06/ch06.pdf) |
-| 07      | Advanced Classification       | [Open](./07/ch07.ipynb) | [Open](./07/ch07.pdf) |
-| 08      | Cluster Analysis              | [Open](./08/ch08.ipynb) | [Open](./08/ch08.pdf) |
-| 09      | In Progress                   | —                       | —                     |
-| 10      | Deep Learning                 | [Open](./10/ch10.ipynb) | [Open](./10/ch10.pdf) |
-| 11      | In Progress                   | —                       | —                     |
-| 12      | Trends and Research Frontiers | [Open](./12/ch12.ipynb) | [Open](./12/ch12.pdf) |
+The maintainers may use GitHub Issues to track corrections and future revisions.
 
 ---
 
 # Frequently Asked Questions
 
+## What semester is this release for?
+
+This release is prepared for **Fall 2026**, within the **2026–2027 academic year**.
+
+## Is this the first version of the notes?
+
+No.
+
+This repository contains **Version 2**.
+
+It is the second edition of an earlier course-note project, but Version 2 has been substantially redesigned and reworked rather than being a minor update.
+
+## Is Version 2 just an edited copy of Version 1?
+
+No.
+
+The current version represents a major restructuring and reworking of the earlier material, including content organization, explanations, presentation, mathematical treatment, visual elements, and implementation-oriented material.
+
+## Which chapters are currently public?
+
+Chapters **1–8, 10, and 12** are currently published.
+
+## Why are Chapters 9 and 11 missing?
+
+They are still under development and have intentionally not been published yet.
+
+## Will Chapters 9 and 11 be added later?
+
+Yes. They are planned for future releases after completion.
+
 ## Do I need Python to read the notes?
 
 No.
 
-The PDF versions can be read without Python.
+The PDF files can be read without Python.
 
-Python and Jupyter are only required if you want to execute the Notebook cells.
+Python and Jupyter are required only when you want to execute Notebook cells.
 
-## Can I open the Notebook directly on GitHub?
+## Can the notebooks be viewed on GitHub?
 
 Yes.
 
-GitHub can render Jupyter Notebook files for reading.
+GitHub can render the `.ipynb` files for reading.
 
-Execution requires a compatible Jupyter environment.
+## Can I execute the notebooks directly on GitHub?
 
-## Are Chapters 9 and 11 missing by mistake?
+GitHub's normal Notebook rendering is primarily for viewing. Local execution or a compatible notebook service is required for running the cells.
 
-No.
-
-They are intentionally not included in the current public release because they are still being completed.
-
-## Will Chapters 9 and 11 be added later?
-
-They are planned for later publication after completion.
-
-## Is the entire repository software?
+## Is this repository a software package?
 
 No.
 
-The primary purpose of this repository is to distribute educational course notes in Notebook and PDF formats.
+Its primary purpose is to distribute educational course notes in Notebook and PDF formats.
 
-## Does the repository license automatically cover MovieLens?
-
-No.
-
-MovieLens is third-party material and has separate terms.
-
-## Does the repository license automatically cover every image?
+## Does the repository license cover every file automatically?
 
 No.
 
-Only material for which the authors have the rights necessary to grant the repository license should be treated as covered by that license.
-
-## Why is there no universal `requirements.txt`?
-
-Because the current course notebooks were developed across multiple environments and chapters use different dependency sets.
-
-A future release may introduce a consolidated or chapter-specific environment specification.
+The repository license applies to material for which the authors have the rights necessary to grant that license. Third-party material remains subject to its own terms.
 
 ---
 
 # Contact and Permissions
 
-For uses that are clearly within the license, follow the conditions of the license.
+For uses clearly allowed by the published license, follow the conditions of that license.
 
-For uses that require permission beyond the published license, contact the rights holders.
+For uses outside the published license, contact the rights holders before proceeding.
 
-When contacting the authors, include:
+When requesting additional permission, it is useful to provide:
 
 - The material you want to use
-- The intended use
-- Whether the use is educational, personal, institutional, or commercial
+- The intended purpose
+- Whether the use is educational or commercial
 - Whether the material will be modified
 - Where it will be distributed
 - The expected audience
 
-Additional permission is separate from the standard rights already granted by the repository license.
+Additional permission is separate from the rights already granted by the published license.
 
 ---
 
 # Acknowledgment
 
-This course-note collection is the result of the collaborative work of the course design team under the supervision of the course instructor.
+This collection is the result of collaborative work by the course design team under the supervision of the course instructor.
 
-### Instructor
+## Instructor
 
 **Dr. Amin Eskandari**
 
-### Design Team
+## Design Team
 
 **Hamid Namjoo**  
 **Amirhossein Hemmati**  
 **Amir-Mohammad Asadjoo**  
-**Ali Nikouan**  
+**Ali Nikvan**  
 **Reza Liaqat**  
 **Alireza Moghaddas**  
 **Golnoush Hosseinpour**  
@@ -1754,8 +1549,8 @@ This course-note collection is the result of the collaborative work of the cours
 ---
 
 <p align="center">
-  <strong>Data Mining Notes</strong><br>
+  <strong>Data Mining Notes — Version 2</strong><br>
   Islamic Azad University, Shiraz Branch<br>
   Faculty of Computer Engineering<br>
-  Academic Year 1405–1406
+  Fall 2026 · Academic Year 2026–2027
 </p>
