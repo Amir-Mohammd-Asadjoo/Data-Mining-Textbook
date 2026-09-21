@@ -118,8 +118,8 @@ The instructor listed in the course material is:
 The following members are identified in the course material as the design team responsible for preparing and organizing the notes:
 
 1. **Hamid Namjoo**
-2. **Amirhossein Hemmati**
-3. **Amir-Mohammad Asadjoo**
+2. **Amir Hossein Hemmati**
+3. **AmirMohammad Asadjoo**
 4. **Ali Nikvan**
 5. **Reza Liaqat**
 6. **Alireza Moghaddas**
