@@ -1555,14 +1555,21 @@ GitHub می‌تواند فایل‌های `.ipynb` را برای مطالعه �
 
 ## تیم طراحی
 
-[**Hamid Namjoo**](https://hamidnamjoo.com/)
-[**Amir Hossein Hemmati**](https://github.com/AmirHosseinHemati)
-[**AmirMohammad Asadjoo**](https://github.com/Amir-Mohammd-Asadjoo)
-**Ali Nikvan**  
-**Reza Liaqat**  
-**Alireza Moghaddas**  
-**Golnoush Hosseinpour**  
-**Elham Izadi**
+- [**Hamid Namjoo**](https://hamidnamjoo.com/)
+
+- [**Amir Hossein Hemmati**](https://github.com/AmirHosseinHemati)
+
+- [**AmirMohammad Asadjoo**](https://github.com/Amir-Mohammd-Asadjoo)
+
+- **Ali Nikvan**
+  
+- **Reza Liaqat**
+  
+- **Alireza Moghaddas**
+  
+- **Golnoush Hosseinpour**
+  
+- **Elham Izadi**
 
 ---
 
