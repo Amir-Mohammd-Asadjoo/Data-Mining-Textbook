@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 [![Format](https://img.shields.io/badge/Format-Jupyter%20Notebook%20%7C%20PDF-orange.svg)](https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes)
 [![Semester](https://img.shields.io/badge/Semester-Fall%202026-blue.svg)](https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes)
-
 ---
 
 ## At a Glance
@@ -13,6 +12,8 @@
 **Data Mining Textbook — Version 2** is a comprehensive, Persian-language textbook for the **Data Mining** course at **Islamic Azad University, Shiraz Branch, Faculty of Computer Engineering**, prepared for **Fall 2026 (2026–2027 academic year)**. It is provided in both **Jupyter Notebook** and **PDF** formats and combines conceptual explanations, mathematical formulations, examples, visualizations, and executable Python demonstrations.
 
 This edition is a substantially redesigned and expanded successor to **[Version 1](https://github.com/hrnrxb/Data_Mining_Fall2025)**. The Version 2 textbook has been prepared and provided as course material for the university's Data Mining course in **Fall 2026**.
+
+[توضیحات فارسی](https://github.com/hrnrxb/Data-Mining-Textbook/blob/main/README_FA.md)
 
 ---
 
@@ -142,7 +143,7 @@ The following members are identified in the course material as the design team r
 
 - [Overview](#overview)
 - [Project Lineage](#project-lineage)
-- [Version 2 of the Course Textbook](#version-2-of-the-course textbooks)
+- [Version 2 of the Course Textbook](#version-2-of-the-course-textbooks)
 - [Current Release](#current-release)
 - [Course Information](#course-information)
 - [Instructor](#instructor)
