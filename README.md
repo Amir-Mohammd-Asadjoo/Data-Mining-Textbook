@@ -1,6 +1,6 @@
-# Data Mining Notes
+# Data Mining Textbook
 
-> A comprehensive course-note collection for **Data Mining**, provided in Jupyter Notebook and PDF formats.
+> A comprehensive course textbook for **Data Mining**, provided in Jupyter Notebook and PDF formats.
 
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 [![Format](https://img.shields.io/badge/Format-Jupyter%20Notebook%20%7C%20PDF-orange.svg)](https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes)
@@ -8,16 +8,24 @@
 
 ---
 
+## At a Glance
+
+**Data Mining Textbook — Version 2** is a comprehensive, Persian-language textbook for the **Data Mining** course at **Islamic Azad University, Shiraz Branch, Faculty of Computer Engineering**, prepared for **Fall 2026 (2026–2027 academic year)**. It is provided in both **Jupyter Notebook** and **PDF** formats and combines conceptual explanations, mathematical formulations, examples, visualizations, and executable Python demonstrations.
+
+This edition is a substantially redesigned and expanded successor to **[Version 1](https://github.com/hrnrxb/Data_Mining_Fall2025)**. The Version 2 textbook has been prepared and provided as course material for the university's Data Mining course in **Fall 2026**.
+
+---
+
 ## Overview
 
-This repository contains the current public release of the **Data Mining** course notes prepared for **Fall 2026**, corresponding to the **2026–2027 academic year**, at **Islamic Azad University, Shiraz Branch – Faculty of Computer Engineering**.
+This repository contains the current public release of the **Data Mining** course textbook prepared for **Fall 2026**, corresponding to the **2026–2027 academic year**, at **Islamic Azad University, Shiraz Branch – Faculty of Computer Engineering**.
 
-The notes are provided in two synchronized formats:
+The textbook are provided in two synchronized formats:
 
 - **Jupyter Notebook (`.ipynb`)** for interactive reading, mathematical notation, executable Python cells, visualizations, examples, and demonstrations.
 - **PDF (`.pdf`)** for linear reading, offline study, printing, annotation, and archival use.
 
-The notebooks are the primary interactive source of the material, while the PDFs provide a stable reading-oriented representation of the corresponding chapters.
+The notebooks are the primary interactive source of the textbook, while the PDFs provide a stable reading-oriented representation of the corresponding chapters.
 
 The project is intended to be more than a compact list of definitions. Its structure combines conceptual explanations, intuition, mathematical formulations, examples, diagrams, visualizations, implementation-oriented demonstrations, and practical context throughout the published chapters.
 
@@ -25,9 +33,9 @@ The project is intended to be more than a compact list of definitions. Its struc
 
 # Project Lineage
 
-## Version 2 of the Course Notes
+## Version 2 of the Course Textbook
 
-This repository is the **second version** of an earlier Data Mining course-note project.
+This repository is the **second version** of an earlier Data Mining course textbook project.
 
 Although this release is formally a **Version 2**, it should not be understood as a minor revision or a simple continuation of the previous notes.
 
@@ -35,7 +43,7 @@ The second version has been **substantially redesigned, rewritten, reorganized, 
 
 Large portions of the material have been revisited from the ground up, including the structure of explanations, presentation of concepts, mathematical treatment, examples, visual elements, notebook organization, and practical demonstrations.
 
-As a result, Version 2 should be regarded as a **new and substantially reworked edition** of the course notes rather than merely an edited copy of Version 1.
+As a result, Version 2 should be regarded as a **new and substantially reworked edition** of the course textbook rather than merely an edited copy of Version 1.
 
 The relationship can therefore be summarized as:
 
@@ -48,7 +56,7 @@ Version 1
 Version 2
 ```
 
-Version 1 is the conceptual predecessor of this project, but the material published here represents the current Version 2 release.
+Version 1 is the conceptual predecessor of this project, but the textbook published here represents the current Version 2 release.
 
 ---
 
@@ -73,7 +81,7 @@ The current public release contains the following completed chapters:
 
 ### Chapters 09 and 11
 
-Chapters **09** and **11** are part of the broader Version 2 course-note project but are still under development.
+Chapters **09** and **11** are part of the broader Version 2 course textbook project but are still under development.
 
 They are intentionally excluded from the current public release.
 
@@ -115,7 +123,7 @@ The instructor listed in the course material is:
 
 # Authors and Design Team
 
-The following members are identified in the course material as the design team responsible for preparing and organizing the notes:
+The following members are identified in the course material as the design team responsible for preparing and organizing the textbook:
 
 1. **Hamid Namjoo**
 2. **Amir Hossein Hemmati**
@@ -134,7 +142,7 @@ The following members are identified in the course material as the design team r
 
 - [Overview](#overview)
 - [Project Lineage](#project-lineage)
-- [Version 2 of the Course Notes](#version-2-of-the-course-notes)
+- [Version 2 of the Course Textbook](#version-2-of-the-course textbooks)
 - [Current Release](#current-release)
 - [Course Information](#course-information)
 - [Instructor](#instructor)
@@ -837,7 +845,7 @@ Chapter 12 moves toward current research directions and emerging application are
 
 # Learning Approach
 
-The notes combine several complementary layers of learning.
+The textbook combine several complementary layers of learning.
 
 ## 1. Conceptual Understanding
 
@@ -867,7 +875,7 @@ Examples and scenarios are used to connect algorithms and concepts to practical 
 
 # Notebook Format
 
-The `.ipynb` files are the interactive form of the notes.
+The `.ipynb` files are the interactive form of the textbook.
 
 They contain combinations of:
 
@@ -1189,7 +1197,7 @@ The repository license does not automatically relicense third-party works.
 
 # License
 
-The original course-note content covered by the repository's authorship is intended to be released under:
+The original course textbook content covered by the repository's authorship is intended to be released under:
 
 **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**
 
@@ -1241,7 +1249,7 @@ When the original licensed material is redistributed, appropriate author attribu
 
 ## Derivative Works
 
-The `ND` condition reflects the authors' choice not to grant a general public license to distribute modified or adapted versions of the original course notes.
+The `ND` condition reflects the authors' choice not to grant a general public license to distribute modified or adapted versions of the original course textbook.
 
 For permissions outside the published license, contact the rights holders.
 
@@ -1264,13 +1272,13 @@ please cite the authors and link to the original repository.
 
 ## Suggested Citation
 
-> Hamid Namjoo; Amirhossein Hemmati; Amir-Mohammad Asadjoo; Ali Nikvan; Reza Liaqat; Alireza Moghaddas; Golnoush Hosseinpour; Elham Izadi. *Data Mining Notes, Version 2*. Islamic Azad University, Shiraz Branch, Faculty of Computer Engineering, Fall 2026, Academic Year 2026–2027. GitHub: https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes
+> Hamid Namjoo; Amirhossein Hemmati; Amir-Mohammad Asadjoo; Ali Nikvan; Reza Liaqat; Alireza Moghaddas; Golnoush Hosseinpour; Elham Izadi. *Data Mining Textbook, Version 2*. Islamic Azad University, Shiraz Branch, Faculty of Computer Engineering, Fall 2026, Academic Year 2026–2027. GitHub: https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes
 
 ## BibTeX
 
 ```bibtex
-@misc{data_mining_notes_v2_2026,
-  title        = {Data Mining Notes, Version 2},
+@misc{data_mining_textbook_v2_2026,
+  title        = {Data Mining Textbook, Version 2},
   author       = {Namjoo, Hamid and
                   Hemmati, Amirhossein and
                   Asadjoo, Amir-Mohammad and
@@ -1450,13 +1458,13 @@ The maintainers may use GitHub Issues to track corrections and future revisions.
 
 This release is prepared for **Fall 2026**, within the **2026–2027 academic year**.
 
-## Is this the first version of the notes?
+## Is this the first version of the textbook?
 
 No.
 
 This repository contains **Version 2**.
 
-It is the second edition of an earlier course-note project, but Version 2 has been substantially redesigned and reworked rather than being a minor update.
+It is the second edition of an earlier course textbook project, but Version 2 has been substantially redesigned and reworked rather than being a minor update.
 
 ## Is Version 2 just an edited copy of Version 1?
 
@@ -1476,7 +1484,7 @@ They are still under development and have intentionally not been published yet.
 
 Yes. They are planned for future releases after completion.
 
-## Do I need Python to read the notes?
+## Do I need Python to read the textbook?
 
 No.
 
@@ -1498,7 +1506,7 @@ GitHub's normal Notebook rendering is primarily for viewing. Local execution or 
 
 No.
 
-Its primary purpose is to distribute educational course notes in Notebook and PDF formats.
+Its primary purpose is to distribute educational course textbook in Notebook and PDF formats.
 
 ## Does the repository license cover every file automatically?
 
@@ -1549,7 +1557,7 @@ This collection is the result of collaborative work by the course design team un
 ---
 
 <p align="center">
-  <strong>Data Mining Notes — Version 2</strong><br>
+  <strong>Data Mining Textbook — Version 2</strong><br>
   Islamic Azad University, Shiraz Branch<br>
   Faculty of Computer Engineering<br>
   Fall 2026 · Academic Year 2026–2027
