@@ -20,6 +20,50 @@ This edition is a substantially redesigned and expanded successor to **[Version 
 [Data Mining Course Page (Fall 2026)](https://iau-shiraz-courses.github.io/DM-fall2026/)
 ---
 
+# Table of Contents
+
+- [Overview](#overview)
+- [Project Lineage](#project-lineage)
+- [Current Release](#current-release)
+- [Course Information](#course-information)
+- [Instructor](#instructor)
+- [Authors and Design Team](#authors-and-design-team)
+- [Repository Statistics](#repository-statistics)
+- [Repository Structure](#repository-structure)
+- [Chapter 01 – Introduction](#chapter-01--introduction)
+- [Chapter 02 – Data, Measurements, and Data Preprocessing](#chapter-02--data-measurements-and-data-preprocessing)
+- [Chapter 03 – Data Warehousing and Online Analytical Processing](#chapter-03--data-warehousing-and-online-analytical-processing)
+- [Chapter 04 – Pattern Mining: Basic Concepts and Methods](#chapter-04--pattern-mining-basic-concepts-and-methods)
+- [Chapter 05 – Advanced Pattern Mining](#chapter-05--advanced-pattern-mining)
+- [Chapter 06 – Classification: Basic Concepts and Techniques](#chapter-06--classification-basic-concepts-and-techniques)
+- [Chapter 07 – Classification: Advanced Methods](#chapter-07--classification-advanced-methods)
+- [Chapter 08 – Cluster Analysis](#chapter-08--cluster-analysis)
+- [Chapter 09 – Planned / In Progress](#chapter-09--planned--in-progress)
+- [Chapter 10 – Deep Learning](#chapter-10--deep-learning)
+- [Chapter 11 – Planned / In Progress](#chapter-11--planned--in-progress)
+- [Chapter 12 – Data Mining Trends and Research Frontiers](#chapter-12--data-mining-trends-and-research-frontiers)
+- [Learning Approach](#learning-approach)
+- [Notebook Format](#notebook-format)
+- [PDF Format](#pdf-format)
+- [Running the Notebooks](#running-the-notebooks)
+- [Python Dependencies](#python-dependencies)
+- [Chapter-Level Dependency Overview](#chapter-level-dependency-overview)
+- [Python Version Information](#python-version-information)
+- [Images and External Assets](#images-and-external-assets)
+- [License](#license)
+- [Copyright and Third-Party Material](#copyright-and-third-party-material)
+- [Citation](#citation)
+- [Repository and GitHub](#repository-and-github)
+- [Recommended Git Hygiene](#recommended-git-hygiene)
+- [Release Philosophy](#release-philosophy)
+- [Future Releases](#future-releases)
+- [Quality and Accuracy](#quality-and-accuracy)
+- [Contribution and Issue Reporting](#contribution-and-issue-reporting)
+- [Frequently Asked Questions](#frequently-asked-questions)
+- [Contact and Permissions](#contact-and-permissions)
+- [Acknowledgment](#acknowledgment)
+
+---
 ## Overview
 
 This repository contains the current public release of the **Data Mining** course textbook prepared for **Fall 2026**, corresponding to the **2026–2027 academic year**, at **Islamic Azad University, Shiraz Branch – Faculty of Computer Engineering**.
@@ -139,51 +183,6 @@ The following members are identified in the course material as the design team r
 8. **Elham Izadi**
 
 > The names above follow the English transliterations used for the repository documentation. Official author-preferred spellings can be adopted in a future release if the authors provide them.
-
----
-
-# Table of Contents
-
-- [Overview](#overview)
-- [Project Lineage](#project-lineage)
-- [Current Release](#current-release)
-- [Course Information](#course-information)
-- [Instructor](#instructor)
-- [Authors and Design Team](#authors-and-design-team)
-- [Repository Statistics](#repository-statistics)
-- [Repository Structure](#repository-structure)
-- [Chapter 01 – Introduction](#chapter-01--introduction)
-- [Chapter 02 – Data, Measurements, and Data Preprocessing](#chapter-02--data-measurements-and-data-preprocessing)
-- [Chapter 03 – Data Warehousing and Online Analytical Processing](#chapter-03--data-warehousing-and-online-analytical-processing)
-- [Chapter 04 – Pattern Mining: Basic Concepts and Methods](#chapter-04--pattern-mining-basic-concepts-and-methods)
-- [Chapter 05 – Advanced Pattern Mining](#chapter-05--advanced-pattern-mining)
-- [Chapter 06 – Classification: Basic Concepts and Techniques](#chapter-06--classification-basic-concepts-and-techniques)
-- [Chapter 07 – Classification: Advanced Methods](#chapter-07--classification-advanced-methods)
-- [Chapter 08 – Cluster Analysis](#chapter-08--cluster-analysis)
-- [Chapter 09 – Planned / In Progress](#chapter-09--planned--in-progress)
-- [Chapter 10 – Deep Learning](#chapter-10--deep-learning)
-- [Chapter 11 – Planned / In Progress](#chapter-11--planned--in-progress)
-- [Chapter 12 – Data Mining Trends and Research Frontiers](#chapter-12--data-mining-trends-and-research-frontiers)
-- [Learning Approach](#learning-approach)
-- [Notebook Format](#notebook-format)
-- [PDF Format](#pdf-format)
-- [Running the Notebooks](#running-the-notebooks)
-- [Python Dependencies](#python-dependencies)
-- [Chapter-Level Dependency Overview](#chapter-level-dependency-overview)
-- [Python Version Information](#python-version-information)
-- [Images and External Assets](#images-and-external-assets)
-- [License](#license)
-- [Copyright and Third-Party Material](#copyright-and-third-party-material)
-- [Citation](#citation)
-- [Repository and GitHub](#repository-and-github)
-- [Recommended Git Hygiene](#recommended-git-hygiene)
-- [Release Philosophy](#release-philosophy)
-- [Future Releases](#future-releases)
-- [Quality and Accuracy](#quality-and-accuracy)
-- [Contribution and Issue Reporting](#contribution-and-issue-reporting)
-- [Frequently Asked Questions](#frequently-asked-questions)
-- [Contact and Permissions](#contact-and-permissions)
-- [Acknowledgment](#acknowledgment)
 
 ---
 
