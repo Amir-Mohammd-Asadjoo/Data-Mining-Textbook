@@ -3,8 +3,8 @@
 > A comprehensive course textbook for **Data Mining**, provided in Jupyter Notebook and PDF formats.
 
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-[![Format](https://img.shields.io/badge/Format-Jupyter%20Notebook%20%7C%20PDF-orange.svg)](https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes)
-[![Semester](https://img.shields.io/badge/Semester-Fall%202026-blue.svg)](https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes)
+[![Format](https://img.shields.io/badge/Format-Jupyter%20Notebook%20%7C%20PDF-orange.svg)](https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook)
+[![Semester](https://img.shields.io/badge/Semester-Fall%202026-blue.svg)](https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook)
 
 # [توضیحات فارسی](https://github.com/hrnrxb/Data-Mining-Textbook/blob/main/README_FA.md)
 
@@ -225,7 +225,7 @@ These statistics describe the current public release and may change as the repos
 The intended public structure is:
 
 ```text
-data-mining-notes/
+Data-Mining-Textbook/
 │
 ├── README.md
 ├── LICENSE
@@ -950,8 +950,8 @@ GitHub rendering does not provide a full local execution environment.
 Clone the repository:
 
 ```bash
-git clone https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes.git
-cd data-mining-notes
+git clone https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook.git
+cd Data-Mining-Textbook
 ```
 
 Start Jupyter Lab:
@@ -1274,7 +1274,7 @@ please cite the authors and link to the original repository.
 
 ## Suggested Citation
 
-> Hamid Namjoo; Amirhossein Hemmati; Amir-Mohammad Asadjoo; Ali Nikvan; Reza Liaqat; Alireza Moghaddas; Golnoush Hosseinpour; Elham Izadi. *Data Mining Textbook, Version 2*. Islamic Azad University, Shiraz Branch, Faculty of Computer Engineering, Fall 2026, Academic Year 2026–2027. GitHub: https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes
+> Hamid Namjoo; Amirhossein Hemmati; Amir-Mohammad Asadjoo; Ali Nikvan; Reza Liaqat; Alireza Moghaddas; Golnoush Hosseinpour; Elham Izadi. *Data Mining Textbook, Version 2*. Islamic Azad University, Shiraz Branch, Faculty of Computer Engineering, Fall 2026, Academic Year 2026–2027. GitHub: https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook
 
 ## BibTeX
 
@@ -1294,7 +1294,7 @@ please cite the authors and link to the original repository.
                   Faculty of Computer Engineering,
                   Fall 2026,
                   Academic Year 2026--2027},
-  url          = {https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes}
+  url          = {https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook}
 }
 ```
 
@@ -1306,18 +1306,18 @@ This BibTeX entry is a practical repository citation template and does not imply
 
 Official repository:
 
-<https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes>
+<https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook>
 
 ## Clone
 
 ```bash
-git clone https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes.git
+git clone https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook.git
 ```
 
 ## Enter the repository
 
 ```bash
-cd data-mining-notes
+cd Data-Mining-Textbook
 ```
 
 ## Start Jupyter
