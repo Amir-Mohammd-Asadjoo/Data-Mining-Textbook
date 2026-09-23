@@ -143,7 +143,6 @@ The following members are identified in the course material as the design team r
 
 - [Overview](#overview)
 - [Project Lineage](#project-lineage)
-- [Version 2 of the Course Textbook](#version-2-of-the-course-textbooks)
 - [Current Release](#current-release)
 - [Course Information](#course-information)
 - [Instructor](#instructor)
