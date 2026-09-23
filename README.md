@@ -173,7 +173,7 @@ The instructor listed in the course material is:
 
 The following members are identified in the course material as the design team responsible for preparing and organizing the textbook:
 
-1. [**Hamid Namjoo**](https://github.com/hrnrxb)
+1. [**Hamid Namjoo**](https://hamidnamjoo.com/)
 2. [**Amir Hossein Hemmati**](https://github.com/AmirHosseinHemati)
 3. [**AmirMohammad Asadjoo**](https://github.com/Amir-Mohammd-Asadjoo)
 4. **Ali Nikvan**
@@ -1235,7 +1235,7 @@ Suggested copyright notice:
 ```text
 Copyright © 2026
 
-[Hamid Namjoo](https://github.com/hrnrxb)
+[Hamid Namjoo](https://hamidnamjoo.com/)
 [Amir Hossein Hemmati](https://github.com/AmirHosseinHemati)
 [AmirMohammad Asadjoo](https://github.com/Amir-Mohammd-Asadjoo)
 Ali Nikvan
@@ -1547,7 +1547,7 @@ This collection is the result of collaborative work by the course design team un
 
 ## Design Team
 
-- [**Hamid Namjoo**](https://github.com/hrnrxb)
+- [**Hamid Namjoo**](https://hamidnamjoo.com/)
 
 - [**Amir Hossein Hemmati**](https://github.com/AmirHosseinHemati)
 
