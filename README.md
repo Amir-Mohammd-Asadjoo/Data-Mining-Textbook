@@ -1235,9 +1235,9 @@ Suggested copyright notice:
 ```text
 Copyright © 2026
 
-[Hamid Namjoo](https://hamidnamjoo.com/)
-[Amir Hossein Hemmati](https://github.com/AmirHosseinHemati)
-[AmirMohammad Asadjoo](https://github.com/Amir-Mohammd-Asadjoo)
+Hamid Namjoo
+Amir Hossein Hemmati
+AmirMohammad Asadjoo
 Ali Nikvan
 Reza Liaqat
 Alireza Moghaddas
