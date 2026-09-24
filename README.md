@@ -3,10 +3,10 @@
 > A comprehensive course textbook for **Data Mining**, provided in Jupyter Notebook and PDF formats.
 
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-[![Format](https://img.shields.io/badge/Format-Jupyter%20Notebook%20%7C%20PDF-orange.svg)](https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes)
-[![Semester](https://img.shields.io/badge/Semester-Fall%202026-blue.svg)](https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes)
+[![Format](https://img.shields.io/badge/Format-Jupyter%20Notebook%20%7C%20PDF-orange.svg)](https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook)
+[![Semester](https://img.shields.io/badge/Semester-Fall%202026-blue.svg)](https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook)
 
-# [توضیحات فارسی](https://github.com/hrnrxb/Data-Mining-Textbook/blob/main/README_FA.md)
+# [توضیحات فارسی](https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook/blob/main/README_FA.md)
 
 
 ---
@@ -69,7 +69,7 @@ This edition is a substantially redesigned and expanded successor to **[Version 
 
 This repository contains the current public release of the **Data Mining** course textbook prepared for **Fall 2026**, corresponding to the **2026–2027 academic year**, at **Islamic Azad University, Shiraz Branch – Faculty of Computer Engineering**.
 
-The textbook are provided in two synchronized formats:
+The textbook is provided in two synchronized formats:
 
 - **Jupyter Notebook (`.ipynb`)** for interactive reading, mathematical notation, executable Python cells, visualizations, examples, and demonstrations.
 - **PDF (`.pdf`)** for linear reading, offline study, printing, annotation, and archival use.
@@ -128,7 +128,6 @@ The current public release contains the following completed chapters:
 | 11 | Published | `11/ch11.ipynb` | `11/ch11.pdf` |
 | 12 | Published | `12/ch12.ipynb` | `12/ch12.pdf` |
 
-
 ---
 
 # Course Information
@@ -167,7 +166,7 @@ The following members are identified in the course material as the design team r
 
 1. [**Hamid Namjoo**](https://hamidnamjoo.com/)
 2. [**Amir Hossein Hemmati**](https://github.com/AmirHosseinHemati)
-3. [**AmirMohammad Asadjoo**](https://github.com/Amir-Mohammd-Asadjoo)
+3. [**Amir Mohammad Asadjoo**](https://github.com/Amir-Mohammd-Asadjoo)
 4. **Ali Nikvan**
 5. **Reza Liaqat**
 6. **Alireza Moghaddas**
@@ -185,11 +184,11 @@ The current public release contains:
 - **12 published chapters**
 - **12 Jupyter Notebook files**
 - **12 PDF files**
-- **1,559 PDF pages in total**
+- **1,559 PDF pages**
 - **1,315 Notebook cells**
 - **992 Markdown cells**
 - **323 code cells**
-- Approximately **62,669 lines of code** across the code cells of the published notebooks
+- **62,669 lines of code**
 - **227 local image files**
 
 These statistics describe the current public release and may change as the repository evolves.
@@ -219,7 +218,7 @@ These statistics describe the current public release and may change as the repos
 The intended public structure is:
 
 ```text
-data-mining-notes/
+Data-Mining-Textbook/
 │
 ├── README.md
 ├── LICENSE
@@ -780,7 +779,9 @@ Chapter 8 introduces clustering as an unsupervised-learning problem and examines
 
 Chapter 9 presents advanced clustering methods beyond the basic clustering techniques, covering fuzzy and probabilistic model-based clusters, high-dimensional clustering, biclustering, dimensionality reduction, graph and network clustering, and the use of background knowledge in semisupervised clustering.
 
+
 ---
+
 # Chapter 10 – Deep Learning
 
 **Files**
@@ -883,6 +884,7 @@ Chapter 10 introduces deep learning from neural-network fundamentals through mod
 Chapter 11 focuses on outlier and anomaly detection, covering statistical, distance- and density-based, reconstruction-based, clustering-based, and classification-based approaches. It also addresses contextual and collective outliers and the challenges of detecting anomalies in high-dimensional data, including subspace methods, ensembles, and deep learning.
 
 ---
+
 # Chapter 12 – Data Mining Trends and Research Frontiers
 
 **Files**
@@ -930,7 +932,7 @@ Chapter 12 moves toward current research directions and emerging application are
 
 # Learning Approach
 
-The textbook combine several complementary layers of learning.
+The textbook combines several complementary layers of learning.
 
 ## 1. Conceptual Understanding
 
@@ -1033,8 +1035,8 @@ GitHub rendering does not provide a full local execution environment.
 Clone the repository:
 
 ```bash
-git clone https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes.git
-cd data-mining-notes
+git clone https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook.git
+cd Data-Mining-Textbook
 ```
 
 Start Jupyter Lab:
@@ -1344,7 +1346,7 @@ Copyright © 2026
 
 Hamid Namjoo
 Amir Hossein Hemmati
-AmirMohammad Asadjoo
+Amir Mohammad Asadjoo
 Ali Nikvan
 Reza Liaqat
 Alireza Moghaddas
@@ -1381,7 +1383,7 @@ please cite the authors and link to the original repository.
 
 ## Suggested Citation
 
-> Hamid Namjoo; Amirhossein Hemmati; Amir-Mohammad Asadjoo; Ali Nikvan; Reza Liaqat; Alireza Moghaddas; Golnoush Hosseinpour; Elham Izadi. *Data Mining Textbook, Version 2*. Islamic Azad University, Shiraz Branch, Faculty of Computer Engineering, Fall 2026, Academic Year 2026–2027. GitHub: https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes
+> Hamid Namjoo; Amir Hossein Hemmati; Amir Mohammad Asadjoo; Ali Nikvan; Reza Liaqat; Alireza Moghaddas; Golnoush Hosseinpour; Elham Izadi. *Data Mining Textbook, Version 2*. Islamic Azad University, Shiraz Branch, Faculty of Computer Engineering, Fall 2026, Academic Year 2026–2027. GitHub: https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook
 
 ## BibTeX
 
@@ -1389,8 +1391,8 @@ please cite the authors and link to the original repository.
 @misc{data_mining_textbook_v2_2026,
   title        = {Data Mining Textbook, Version 2},
   author       = {Namjoo, Hamid and
-                  Hemmati, Amirhossein and
-                  Asadjoo, Amir-Mohammad and
+                  Hemmati, Amir Hossein and
+                  Asadjoo, Amir Mohammad and
                   Nikvan, Ali and
                   Liaqat, Reza and
                   Moghaddas, Alireza and
@@ -1401,7 +1403,7 @@ please cite the authors and link to the original repository.
                   Faculty of Computer Engineering,
                   Fall 2026,
                   Academic Year 2026--2027},
-  url          = {https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes}
+  url          = {https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook}
 }
 ```
 
@@ -1413,18 +1415,18 @@ This BibTeX entry is a practical repository citation template and does not imply
 
 Official repository:
 
-<https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes>
+<https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook>
 
 ## Clone
 
 ```bash
-git clone https://github.com/Amir-Mohammd-Asadjoo/data-mining-notes.git
+git clone https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook.git
 ```
 
 ## Enter the repository
 
 ```bash
-cd data-mining-notes
+cd Data-Mining-Textbook
 ```
 
 ## Start Jupyter
@@ -1610,6 +1612,7 @@ Its primary purpose is to distribute an educational course textbook in Notebook 
 No.
 
 The repository license applies to material for which the authors have the rights necessary to grant that license. Third-party material remains subject to its own terms.
+
 ---
 
 # Contact and Permissions
@@ -1645,7 +1648,7 @@ This collection is the result of collaborative work by the course design team un
 
 - [**Amir Hossein Hemmati**](https://github.com/AmirHosseinHemati)
 
-- [**AmirMohammad Asadjoo**](https://github.com/Amir-Mohammd-Asadjoo)
+- [**Amir Mohammad Asadjoo**](https://github.com/Amir-Mohammd-Asadjoo)
 
 - **Ali Nikvan**  
 
