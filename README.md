@@ -39,9 +39,9 @@ This edition is a substantially redesigned and expanded successor to **[Version 
 - [Chapter 06 – Classification: Basic Concepts and Techniques](#chapter-06--classification-basic-concepts-and-techniques)
 - [Chapter 07 – Classification: Advanced Methods](#chapter-07--classification-advanced-methods)
 - [Chapter 08 – Cluster Analysis](#chapter-08--cluster-analysis)
-- [Chapter 09 – Planned / In Progress](#chapter-09--planned--in-progress)
+- [Chapter 09 – Advanced Cluster Analysis](#chapter-09--advanced-cluster-analysis)
 - [Chapter 10 – Deep Learning](#chapter-10--deep-learning)
-- [Chapter 11 – Planned / In Progress](#chapter-11--planned--in-progress)
+- [Chapter 11 – Outlier Detection](#chapter-11--outlier-detection)
 - [Chapter 12 – Data Mining Trends and Research Frontiers](#chapter-12--data-mining-trends-and-research-frontiers)
 - [Learning Approach](#learning-approach)
 - [Notebook Format](#notebook-format)
@@ -123,9 +123,9 @@ The current public release contains the following completed chapters:
 | 06 | Published | `06/ch06.ipynb` | `06/ch06.pdf` |
 | 07 | Published | `07/ch07.ipynb` | `07/ch07.pdf` |
 | 08 | Published | `08/ch08.ipynb` | `08/ch08.pdf` |
-| 09 | In progress / not published | — | — |
+| 09 | Published | `09/ch09.ipynb` | `09/ch09.pdf` |
 | 10 | Published | `10/ch10.ipynb` | `10/ch10.pdf` |
-| 11 | In progress / not published | — | — |
+| 11 | Published | `11/ch11.ipynb` | `11/ch11.pdf` |
 | 12 | Published | `12/ch12.ipynb` | `12/ch12.pdf` |
 
 ### Chapters 09 and 11
@@ -191,14 +191,14 @@ The following members are identified in the course material as the design team r
 
 The current public release contains:
 
-- **10 published chapters**
-- **10 Jupyter Notebook files**
-- **10 PDF files**
-- **1,293 PDF pages in total**
-- **1,095 Notebook cells**
-- **832 Markdown cells**
-- **263 code cells**
-- Approximately **51,406 lines of code** across the code cells of the published notebooks
+- **12 published chapters**
+- **12 Jupyter Notebook files**
+- **12 PDF files**
+- **1,559 PDF pages in total**
+- **1,315 Notebook cells**
+- **992 Markdown cells**
+- **323 code cells**
+- Approximately **62,669 lines of code** across the code cells of the published notebooks
 - **227 local image files**
 
 These statistics describe the current public release and may change as the repository evolves.
@@ -215,9 +215,11 @@ These statistics describe the current public release and may change as the repos
 | 06 | 118 | 82 | 36 | 186 |
 | 07 | 121 | 92 | 29 | 183 |
 | 08 | 79 | 56 | 23 | 115 |
+| 09 | 101 | 72 | 29 | 125 |
 | 10 | 83 | 65 | 18 | 108 |
+| 11 | 119 | 88 | 31 | 141 |
 | 12 | 107 | 76 | 31 | 120 |
-| **Total** | **1,095** | **832** | **263** | **1,293** |
+| **Total** | **1,315** | **992** | **323** | **1,559** |
 
 ---
 
@@ -279,6 +281,12 @@ data-mining-notes/
 │   └── src/
 │       └── images/
 │
+├── 09/
+│   ├── ch09.ipynb
+│   ├── ch09.pdf
+│   └── src/
+│       └── images/
+
 ├── 10/
 │   ├── ch10.ipynb
 │   ├── ch10.pdf
@@ -729,16 +737,53 @@ Chapter 8 introduces clustering as an unsupervised-learning problem and examines
 
 ---
 
-# Chapter 09 – Planned / In Progress
+# Chapter 09 – Advanced Cluster Analysis
 
-**Status:** Not published yet.
+**Files**
 
-Chapter 9 is part of Version 2 but is still under development.
+- [`09/ch09.ipynb`](./09/ch09.ipynb)
+- [`09/ch09.pdf`](./09/ch09.pdf)
 
-It is intentionally excluded from the current public release and will be added after the material has been completed and prepared for publication.
+**PDF length:** 125 pages
+
+## Topics
+
+### 9.1 Probabilistic Model-Based Clustering
+- 9.1.1 Fuzzy clusters
+- 9.1.2 Probabilistic model-based clusters
+- 9.1.3 Expectation-maximization algorithm
+
+### 9.2 Clustering High-Dimensional Data
+- 9.2.1 Why is clustering high-dimensional data challenging?
+- 9.2.2 Axis-parallel subspace approaches
+- 9.2.3 Arbitrarily oriented subspace approaches
+
+### 9.3 Biclustering
+- 9.3.1 Why and where is biclustering useful?
+- 9.3.2 Types of biclusters
+- 9.3.3 Biclustering methods
+- 9.3.4 Enumerating all biclusters using MaPle
+
+### 9.4 Dimensionality Reduction for Clustering
+- 9.4.1 Linear dimensionality reduction methods for clustering
+- 9.4.2 Nonnegative matrix factorization (NMF)
+- 9.4.3 Spectral clustering
+
+### 9.5 Clustering Graph and Network Data
+- 9.5.1 Applications and challenges
+- 9.5.2 Similarity measures
+- 9.5.3 Graph clustering methods
+
+### 9.6 Semisupervised Clustering
+- 9.6.1 Semisupervised clustering on partially labeled data
+- 9.6.2 Semisupervised clustering on pairwise constraints
+- 9.6.3 Other types of background knowledge for semisupervised clustering
+
+## Chapter Focus
+
+Chapter 9 presents advanced clustering methods beyond the basic clustering techniques, covering fuzzy and probabilistic model-based clusters, high-dimensional clustering, biclustering, dimensionality reduction, graph and network clustering, and the use of background knowledge in semisupervised clustering.
 
 ---
-
 # Chapter 10 – Deep Learning
 
 **Files**
@@ -791,16 +836,56 @@ Chapter 10 introduces deep learning from neural-network fundamentals through mod
 
 ---
 
-# Chapter 11 – Planned / In Progress
+# Chapter 11 – Outlier Detection
 
-**Status:** Not published yet.
+**Files**
 
-Chapter 11 is part of Version 2 but is still under development.
+- [`11/ch11.ipynb`](./11/ch11.ipynb)
+- [`11/ch11.pdf`](./11/ch11.pdf)
 
-It is intentionally excluded from the current public release and will be added after the material has been completed and prepared for publication.
+**PDF length:** 141 pages
+
+## Topics
+
+### 11.1 Basic Concepts
+- 11.1.1 What are outliers?
+- 11.1.2 Types of outliers
+- 11.1.3 Challenges of outlier detection
+- 11.1.4 An overview of outlier detection methods
+
+### 11.2 Statistical Approaches
+- 11.2.1 Parametric methods
+- 11.2.2 Nonparametric methods
+
+### 11.3 Proximity-Based Approaches
+- 11.3.1 Distance-based outlier detection
+- 11.3.2 Density-based outlier detection
+
+### 11.4 Reconstruction-Based Approaches
+- 11.4.1 Matrix factorization–based methods for numerical data
+- 11.4.2 Pattern-based compression methods for categorical data
+
+### 11.5 Clustering- vs. Classification-Based Approaches
+- 11.5.1 Clustering-based approaches
+- 11.5.2 Classification-based approaches
+
+### 11.6 Mining Contextual and Collective Outliers
+- 11.6.1 Transforming contextual outlier detection to conventional outlier detection
+- 11.6.2 Modeling normal behavior with respect to contexts
+- 11.6.3 Mining collective outliers
+
+### 11.7 Outlier Detection in High-Dimensional Data
+- 11.7.1 Extending conventional outlier detection
+- 11.7.2 Finding outliers in subspaces
+- 11.7.3 Outlier detection ensemble
+- 11.7.4 Taming high dimensionality by deep learning
+- 11.7.5 Modeling high-dimensional outliers
+
+## Chapter Focus
+
+Chapter 11 focuses on outlier and anomaly detection, covering statistical, distance- and density-based, reconstruction-based, clustering-based, and classification-based approaches. It also addresses contextual and collective outliers and the challenges of detecting anomalies in high-dimensional data, including subspace methods, ensembles, and deep learning.
 
 ---
-
 # Chapter 12 – Data Mining Trends and Research Frontiers
 
 **Files**
@@ -1133,6 +1218,18 @@ scipy
 scikit-learn
 ```
 
+## Chapter 09
+
+```text
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+networkx
+python-louvain
+```
+
 ## Chapter 10
 
 ```text
@@ -1141,6 +1238,18 @@ pandas
 matplotlib
 seaborn
 scikit-learn
+```
+
+## Chapter 11
+
+```text
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-learn
+networkx
 ```
 
 ## Chapter 12
