@@ -277,10 +277,16 @@ data-mining-notes/
 │   ├── ch09.pdf
 │   └── src/
 │       └── images/
-
+│
 ├── 10/
 │   ├── ch10.ipynb
 │   ├── ch10.pdf
+│   └── src/
+│       └── images/
+│
+├── 11/
+│   ├── ch11.ipynb
+│   ├── ch11.pdf
 │   └── src/
 │       └── images/
 │
@@ -1471,8 +1477,6 @@ The release policy is intentionally simple:
 
 Future releases may include:
 
-- Publication of Chapter 9
-- Publication of Chapter 11
 - Revisions to existing chapters
 - Corrections and typo fixes
 - Updated examples
@@ -1482,8 +1486,6 @@ Future releases may include:
 - Reproducibility improvements
 - More detailed citation metadata
 - GitHub release tags and version identifiers
-
-When Chapters 9 and 11 are completed, this README should be updated accordingly.
 
 ---
 
@@ -1577,15 +1579,7 @@ The current version represents a major restructuring and reworking of the earlie
 
 ## Which chapters are currently public?
 
-Chapters **1–8, 10, and 12** are currently published.
-
-## Why are Chapters 9 and 11 missing?
-
-They are still under development and have intentionally not been published yet.
-
-## Will Chapters 9 and 11 be added later?
-
-Yes. They are planned for future releases after completion.
+Chapters **1–12** are currently published.
 
 ## Do I need Python to read the textbook?
 
@@ -1609,14 +1603,13 @@ GitHub's normal Notebook rendering is primarily for viewing. Local execution or 
 
 No.
 
-Its primary purpose is to distribute educational course textbook in Notebook and PDF formats.
+Its primary purpose is to distribute an educational course textbook in Notebook and PDF formats.
 
 ## Does the repository license cover every file automatically?
 
 No.
 
 The repository license applies to material for which the authors have the rights necessary to grant that license. Third-party material remains subject to its own terms.
-
 ---
 
 # Contact and Permissions
