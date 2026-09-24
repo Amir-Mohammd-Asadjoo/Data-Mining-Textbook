@@ -128,15 +128,6 @@ The current public release contains the following completed chapters:
 | 11 | Published | `11/ch11.ipynb` | `11/ch11.pdf` |
 | 12 | Published | `12/ch12.ipynb` | `12/ch12.pdf` |
 
-### Chapters 09 and 11
-
-Chapters **09** and **11** are part of the broader Version 2 course textbook project but are still under development.
-
-They are intentionally excluded from the current public release.
-
-They will be added to the repository after their material has been completed and prepared for publication.
-
-Their absence from the current release is therefore intentional and should not be interpreted as an error or omission in the course structure.
 
 ---
 
