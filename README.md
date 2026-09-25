@@ -8,73 +8,85 @@
 
 # [توضیحات فارسی](https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook/blob/main/README_FA.md)
 
-
 ---
 
 ## At a Glance
 
-**Data Mining Textbook — Version 2** is a comprehensive, Persian-language textbook for the **Data Mining** course at **Islamic Azad University, Shiraz Branch, Faculty of Computer Engineering**, prepared for **Fall 2026 (2026–2027 academic year)**. It is provided in both **Jupyter Notebook** and **PDF** formats and combines conceptual explanations, mathematical formulations, examples, visualizations, and executable Python demonstrations.
+**Data Mining Textbook — Version 2** is a comprehensive, Persian-language textbook for the **Data Mining** course at **Islamic Azad University, Shiraz Branch, Faculty of Computer Engineering**, prepared for **Fall 2026 (2026–2027 academic year)**.
+
+The textbook is provided in multiple formats:
+
+* **Jupyter Notebooks** for interactive reading, mathematical notation, executable Python cells, examples, and visualizations.
+* **Chapter-level PDFs** for stable, chapter-by-chapter reading.
+* **A complete textbook PDF** containing the full published material in a single document.
+
+The textbook combines conceptual explanations, mathematical formulations, examples, visualizations, diagrams, and executable Python demonstrations throughout the published chapters.
 
 This edition is a substantially redesigned and expanded successor to **[Version 1](https://github.com/hrnrxb/Data_Mining_Fall2025)**. The Version 2 textbook has been prepared and provided as course material for the university's Data Mining course in **Fall 2026**.
 
 [Data Mining Course Page (Fall 2026)](https://iau-shiraz-courses.github.io/DM-fall2026/)
+
 ---
 
 # Table of Contents
 
-- [Overview](#overview)
-- [Project Lineage](#project-lineage)
-- [Version 2 of the Course Textbook](#version-2-of-the-course-textbook)
-- [Current Release](#current-release)
-- [Course Information](#course-information)
-- [Instructor](#instructor)
-- [Authors and Design Team](#authors-and-design-team)
-- [Repository Statistics](#repository-statistics)
-- [Repository Structure](#repository-structure)
-- [Chapter 01 – Introduction](#chapter-01--introduction)
-- [Chapter 02 – Data, Measurements, and Data Preprocessing](#chapter-02--data-measurements-and-data-preprocessing)
-- [Chapter 03 – Data Warehousing and Online Analytical Processing](#chapter-03--data-warehousing-and-online-analytical-processing)
-- [Chapter 04 – Pattern Mining: Basic Concepts and Methods](#chapter-04--pattern-mining-basic-concepts-and-methods)
-- [Chapter 05 – Advanced Pattern Mining](#chapter-05--advanced-pattern-mining)
-- [Chapter 06 – Classification: Basic Concepts and Techniques](#chapter-06--classification-basic-concepts-and-techniques)
-- [Chapter 07 – Classification: Advanced Methods](#chapter-07--classification-advanced-methods)
-- [Chapter 08 – Cluster Analysis](#chapter-08--cluster-analysis)
-- [Chapter 09 – Advanced Cluster Analysis](#chapter-09--advanced-cluster-analysis)
-- [Chapter 10 – Deep Learning](#chapter-10--deep-learning)
-- [Chapter 11 – Outlier Detection](#chapter-11--outlier-detection)
-- [Chapter 12 – Data Mining Trends and Research Frontiers](#chapter-12--data-mining-trends-and-research-frontiers)
-- [Learning Approach](#learning-approach)
-- [Notebook Format](#notebook-format)
-- [PDF Format](#pdf-format)
-- [Running the Notebooks](#running-the-notebooks)
-- [Python Dependencies](#python-dependencies)
-- [Chapter-Level Dependency Overview](#chapter-level-dependency-overview)
-- [Python Version Information](#python-version-information)
-- [Images and External Assets](#images-and-external-assets)
-- [License](#license)
-- [Copyright and Third-Party Material](#copyright-and-third-party-material)
-- [Citation](#citation)
-- [Repository and GitHub](#repository-and-github)
-- [Recommended Git Hygiene](#recommended-git-hygiene)
-- [Release Philosophy](#release-philosophy)
-- [Future Releases](#future-releases)
-- [Quality and Accuracy](#quality-and-accuracy)
-- [Contribution and Issue Reporting](#contribution-and-issue-reporting)
-- [Frequently Asked Questions](#frequently-asked-questions)
-- [Contact and Permissions](#contact-and-permissions)
-- [Acknowledgment](#acknowledgment)
+* [Overview](#overview)
+* [Project Lineage](#project-lineage)
+* [Version 2 of the Course Textbook](#version-2-of-the-course-textbook)
+* [Current Release](#current-release)
+* [Course Information](#course-information)
+* [Instructor](#instructor)
+* [Authors and Design Team](#authors-and-design-team)
+* [Repository Statistics](#repository-statistics)
+* [Repository Structure](#repository-structure)
+* [Chapter 01 – Introduction](#chapter-01--introduction)
+* [Chapter 02 – Data, Measurements, and Data Preprocessing](#chapter-02--data-measurements-and-data-preprocessing)
+* [Chapter 03 – Data Warehousing and Online Analytical Processing](#chapter-03--data-warehousing-and-online-analytical-processing)
+* [Chapter 04 – Pattern Mining: Basic Concepts and Methods](#chapter-04--pattern-mining-basic-concepts-and-methods)
+* [Chapter 05 – Advanced Pattern Mining](#chapter-05--advanced-pattern-mining)
+* [Chapter 06 – Classification: Basic Concepts and Techniques](#chapter-06--classification-basic-concepts-and-techniques)
+* [Chapter 07 – Classification: Advanced Methods](#chapter-07--classification-advanced-methods)
+* [Chapter 08 – Cluster Analysis](#chapter-08--cluster-analysis)
+* [Chapter 09 – Advanced Cluster Analysis](#chapter-09--advanced-cluster-analysis)
+* [Chapter 10 – Deep Learning](#chapter-10--deep-learning)
+* [Chapter 11 – Outlier Detection](#chapter-11--outlier-detection)
+* [Chapter 12 – Data Mining Trends and Research Frontiers](#chapter-12--data-mining-trends-and-research-frontiers)
+* [Learning Approach](#learning-approach)
+* [Notebook Format](#notebook-format)
+* [PDF Format](#pdf-format)
+* [Full Version PDF](#full-version-pdf)
+* [Git LFS](#git-lfs)
+* [Running the Notebooks](#running-the-notebooks)
+* [Python Dependencies](#python-dependencies)
+* [Chapter-Level Dependency Overview](#chapter-level-dependency-overview)
+* [Python Version Information](#python-version-information)
+* [Images and External Assets](#images-and-external-assets)
+* [License](#license)
+* [Copyright and Third-Party Material](#copyright-and-third-party-material)
+* [Citation](#citation)
+* [Repository and GitHub](#repository-and-github)
+* [Recommended Git Hygiene](#recommended-git-hygiene)
+* [Release Philosophy](#release-philosophy)
+* [Future Releases](#future-releases)
+* [Quality and Accuracy](#quality-and-accuracy)
+* [Contribution and Issue Reporting](#contribution-and-issue-reporting)
+* [Frequently Asked Questions](#frequently-asked-questions)
+* [Contact and Permissions](#contact-and-permissions)
+* [Acknowledgment](#acknowledgment)
 
 ---
+
 ## Overview
 
 This repository contains the current public release of the **Data Mining** course textbook prepared for **Fall 2026**, corresponding to the **2026–2027 academic year**, at **Islamic Azad University, Shiraz Branch – Faculty of Computer Engineering**.
 
-The textbook is provided in two synchronized formats:
+The textbook is provided in three complementary forms:
 
-- **Jupyter Notebook (`.ipynb`)** for interactive reading, mathematical notation, executable Python cells, visualizations, examples, and demonstrations.
-- **PDF (`.pdf`)** for linear reading, offline study, printing, annotation, and archival use.
+* **Jupyter Notebook (`.ipynb`)** for interactive reading, mathematical notation, executable Python cells, visualizations, examples, and demonstrations.
+* **Chapter-level PDF (`.pdf`)** for stable, chapter-by-chapter reading, printing, annotation, and offline study.
+* **Complete textbook PDF** for readers who prefer the entire published textbook as a single document.
 
-The notebooks are the primary interactive source of the textbook, while the PDFs provide a stable reading-oriented representation of the corresponding chapters.
+The notebooks are the primary interactive source of the textbook, while the PDFs provide stable reading-oriented representations of the material.
 
 The project is intended to be more than a compact list of definitions. Its structure combines conceptual explanations, intuition, mathematical formulations, examples, diagrams, visualizations, implementation-oriented demonstrations, and practical context throughout the published chapters.
 
@@ -111,40 +123,47 @@ Version 1 is the conceptual predecessor of this project, but the textbook publis
 
 # Current Release
 
-The current public release contains the following completed chapters:
+The current public release contains the following published material:
 
-| Chapter | Status | Notebook | PDF |
-|---|---|---|---|
-| 01 | Published | `01/ch01.ipynb` | `01/ch01.pdf` |
-| 02 | Published | `02/ch02.ipynb` | `02/ch02.pdf` |
-| 03 | Published | `03/ch03.ipynb` | `03/ch03.pdf` |
-| 04 | Published | `04/ch04.ipynb` | `04/ch04.pdf` |
-| 05 | Published | `05/ch05.ipynb` | `05/ch05.pdf` |
-| 06 | Published | `06/ch06.ipynb` | `06/ch06.pdf` |
-| 07 | Published | `07/ch07.ipynb` | `07/ch07.pdf` |
-| 08 | Published | `08/ch08.ipynb` | `08/ch08.pdf` |
-| 09 | Published | `09/ch09.ipynb` | `09/ch09.pdf` |
-| 10 | Published | `10/ch10.ipynb` | `10/ch10.pdf` |
-| 11 | Published | `11/ch11.ipynb` | `11/ch11.pdf` |
-| 12 | Published | `12/ch12.ipynb` | `12/ch12.pdf` |
+| Chapter | Status    | Notebook        | PDF           |
+| ------- | --------- | --------------- | ------------- |
+| 01      | Published | `01/ch01.ipynb` | `01/ch01.pdf` |
+| 02      | Published | `02/ch02.ipynb` | `02/ch02.pdf` |
+| 03      | Published | `03/ch03.ipynb` | `03/ch03.pdf` |
+| 04      | Published | `04/ch04.ipynb` | `04/ch04.pdf` |
+| 05      | Published | `05/ch05.ipynb` | `05/ch05.pdf` |
+| 06      | Published | `06/ch06.ipynb` | `06/ch06.pdf` |
+| 07      | Published | `07/ch07.ipynb` | `07/ch07.pdf` |
+| 08      | Published | `08/ch08.ipynb` | `08/ch08.pdf` |
+| 09      | Published | `09/ch09.ipynb` | `09/ch09.pdf` |
+| 10      | Published | `10/ch10.ipynb` | `10/ch10.pdf` |
+| 11      | Published | `11/ch11.ipynb` | `11/ch11.pdf` |
+| 12      | Published | `12/ch12.ipynb` | `12/ch12.pdf` |
+
+In addition to the chapter-level PDFs, the repository also provides a **complete version of the textbook** as a single PDF:
+
+**[Download / view the complete Data Mining Textbook PDF](./Full_version/Data_Mining_Textbook.pdf)**
+
+The complete PDF combines the published chapter material into one document and is maintained separately from the individual chapter PDFs.
 
 ---
 
 # Course Information
 
-| Field | Information |
-|---|---|
-| Course | Data Mining |
-| University | Islamic Azad University, Shiraz Branch |
-| Faculty | Faculty of Computer Engineering |
-| Semester | Fall 2026 |
-| Academic Year | 2026–2027 |
-| Instructor | [Dr. Amin Eskandari](https://ir.linkedin.com/in/amin-eskandari-1756a73b) |
-| Primary Language | Persian |
-| Technical Terminology | English terminology with Persian explanations |
-| Interactive Format | Jupyter Notebook |
-| Reading / Print Format | PDF |
-| Edition | Version 2 |
+| Field                  | Information                                                              |
+| ---------------------- | ------------------------------------------------------------------------ |
+| Course                 | Data Mining                                                              |
+| University             | Islamic Azad University, Shiraz Branch                                   |
+| Faculty                | Faculty of Computer Engineering                                          |
+| Semester               | Fall 2026                                                                |
+| Academic Year          | 2026–2027                                                                |
+| Instructor             | [Dr. Amin Eskandari](https://ir.linkedin.com/in/amin-eskandari-1756a73b) |
+| Primary Language       | Persian                                                                  |
+| Technical Terminology  | English terminology with Persian explanations                            |
+| Interactive Format     | Jupyter Notebook                                                         |
+| Reading / Print Format | PDF                                                                      |
+| Complete Textbook      | [Full Version PDF](./Full_version/Data_Mining_Textbook.pdf)              |
+| Edition                | Version 2                                                                |
 
 ---
 
@@ -181,47 +200,56 @@ The following members are identified in the course material as the design team r
 
 The current public release contains:
 
-- **12 published chapters**
-- **12 Jupyter Notebook files**
-- **12 PDF files**
-- **1,559 PDF pages**
-- **1,315 Notebook cells**
-- **992 Markdown cells**
-- **323 code cells**
-- **62,669 lines of code**
-- **227 local image files**
+* **12 published chapters**
+* **12 Jupyter Notebook files**
+* **12 chapter-level PDF files**
+* **1 complete textbook PDF**
+* **13 PDF files in total**
+* **1,559 pages across the 12 chapter-level PDFs**
+* **1,315 Notebook cells**
+* **992 Markdown cells**
+* **323 code cells**
+* **62,669 lines of code**
+* **227 local image files**
+
+The complete textbook PDF is a consolidated version of the published chapter material and therefore represents the same textbook content rather than an additional chapter.
 
 These statistics describe the current public release and may change as the repository evolves.
 
 ## Notebook Statistics by Chapter
 
-| Chapter | Total Cells | Markdown Cells | Code Cells | PDF Pages |
-|---:|---:|---:|---:|---:|
-| 01 | 104 | 81 | 23 | 97 |
-| 02 | 208 | 162 | 46 | 163 |
-| 03 | 117 | 95 | 22 | 116 |
-| 04 | 84 | 70 | 14 | 86 |
-| 05 | 74 | 53 | 21 | 119 |
-| 06 | 118 | 82 | 36 | 186 |
-| 07 | 121 | 92 | 29 | 183 |
-| 08 | 79 | 56 | 23 | 115 |
-| 09 | 101 | 72 | 29 | 125 |
-| 10 | 83 | 65 | 18 | 108 |
-| 11 | 119 | 88 | 31 | 141 |
-| 12 | 107 | 76 | 31 | 120 |
-| **Total** | **1,315** | **992** | **323** | **1,559** |
+|   Chapter | Total Cells | Markdown Cells | Code Cells | PDF Pages |
+| --------: | ----------: | -------------: | ---------: | --------: |
+|        01 |         104 |             81 |         23 |        97 |
+|        02 |         208 |            162 |         46 |       163 |
+|        03 |         117 |             95 |         22 |       116 |
+|        04 |          84 |             70 |         14 |        86 |
+|        05 |          74 |             53 |         21 |       119 |
+|        06 |         118 |             82 |         36 |       186 |
+|        07 |         121 |             92 |         29 |       183 |
+|        08 |          79 |             56 |         23 |       115 |
+|        09 |         101 |             72 |         29 |       125 |
+|        10 |          83 |             65 |         18 |       108 |
+|        11 |         119 |             88 |         31 |       141 |
+|        12 |         107 |             76 |         31 |       120 |
+| **Total** |   **1,315** |        **992** |    **323** | **1,559** |
 
 ---
 
 # Repository Structure
 
-The intended public structure is:
+The public repository is organized as follows:
 
 ```text
 Data-Mining-Textbook/
 │
 ├── README.md
+├── README_FA.md
 ├── LICENSE
+├── .gitattributes
+│
+├── Full_version/
+│   └── Data_Mining_Textbook.pdf
 │
 ├── 01/
 │   ├── ch01.ipynb
@@ -296,6 +324,21 @@ Data-Mining-Textbook/
         └── images/
 ```
 
+### Directory Roles
+
+| Path                                    | Purpose                                                          |
+| --------------------------------------- | ---------------------------------------------------------------- |
+| `01/` – `12/`                           | Chapter-specific textbook material                               |
+| `chXX.ipynb`                            | Interactive Jupyter Notebook version of a chapter                |
+| `chXX.pdf`                              | Chapter-level PDF version                                        |
+| `src/images/`                           | Local images and visual assets used by the corresponding chapter |
+| `Full_version/`                         | Complete textbook distribution                                   |
+| `Full_version/Data_Mining_Textbook.pdf` | Consolidated PDF containing the full published textbook          |
+| `.gitattributes`                        | Git LFS tracking configuration                                   |
+| `LICENSE`                               | Repository license                                               |
+| `README.md`                             | English repository documentation                                 |
+| `README_FA.md`                          | Persian repository documentation                                 |
+
 Development metadata and temporary notebook directories should not be committed to the public repository.
 
 Recommended exclusions include:
@@ -303,6 +346,8 @@ Recommended exclusions include:
 ```text
 .git/
 .ipynb_checkpoints/
+__pycache__/
+*.py[cod]
 ```
 
 ---
@@ -311,8 +356,8 @@ Recommended exclusions include:
 
 **Files**
 
-- [`01/ch01.ipynb`](./01/ch01.ipynb)
-- [`01/ch01.pdf`](./01/ch01.pdf)
+* [`01/ch01.ipynb`](./01/ch01.ipynb)
+* [`01/ch01.pdf`](./01/ch01.pdf)
 
 **PDF length:** 97 pages
 
@@ -326,21 +371,21 @@ Recommended exclusions include:
 
 ### 1.4 Mining Various Kinds of Knowledge
 
-- 1.4.1 Multidimensional data summarization
-- 1.4.2 Mining frequent patterns, associations, and correlations
-- 1.4.3 Classification and regression for predictive analysis
-- 1.4.4 Cluster analysis
-- 1.4.5 Deep learning
-- 1.4.6 Outlier analysis
-- 1.4.7 Are all mining results interesting?
+* 1.4.1 Multidimensional data summarization
+* 1.4.2 Mining frequent patterns, associations, and correlations
+* 1.4.3 Classification and regression for predictive analysis
+* 1.4.4 Cluster analysis
+* 1.4.5 Deep learning
+* 1.4.6 Outlier analysis
+* 1.4.7 Are all mining results interesting?
 
 ### 1.5 Data Mining: Confluence of Multiple Disciplines
 
-- 1.5.1 Statistics and data mining
-- 1.5.2 Machine learning and data mining
-- 1.5.3 Database technology and data mining
-- 1.5.4 Data mining and data science
-- 1.5.5 Data mining and other disciplines
+* 1.5.1 Statistics and data mining
+* 1.5.2 Machine learning and data mining
+* 1.5.3 Database technology and data mining
+* 1.5.4 Data mining and data science
+* 1.5.5 Data mining and other disciplines
 
 ### 1.6 Data Mining and Applications
 
@@ -358,8 +403,8 @@ It introduces the role of data mining within knowledge discovery, surveys major 
 
 **Files**
 
-- [`02/ch02.ipynb`](./02/ch02.ipynb)
-- [`02/ch02.pdf`](./02/ch02.pdf)
+* [`02/ch02.ipynb`](./02/ch02.ipynb)
+* [`02/ch02.pdf`](./02/ch02.pdf)
 
 **PDF length:** 163 pages
 
@@ -367,49 +412,49 @@ It introduces the role of data mining within knowledge discovery, surveys major 
 
 ### 2.1 Data Types
 
-- 2.1.1 Nominal attributes
-- 2.1.2 Binary attributes
-- 2.1.3 Ordinal attributes
-- 2.1.4 Numeric attributes
-- 2.1.5 Discrete vs. continuous attributes
+* 2.1.1 Nominal attributes
+* 2.1.2 Binary attributes
+* 2.1.3 Ordinal attributes
+* 2.1.4 Numeric attributes
+* 2.1.5 Discrete vs. continuous attributes
 
 ### 2.2 Statistics of Data
 
-- 2.2.1 Measuring the central tendency
-- 2.2.2 Measuring the dispersion of data
-- 2.2.3 Covariance and correlation analysis
-- 2.2.4 Graphic displays of basic statistics of data
+* 2.2.1 Measuring the central tendency
+* 2.2.2 Measuring the dispersion of data
+* 2.2.3 Covariance and correlation analysis
+* 2.2.4 Graphic displays of basic statistics of data
 
 ### 2.3 Similarity and Distance Measures
 
-- 2.3.1 Data matrix vs. dissimilarity matrix
-- 2.3.2 Proximity measures for nominal attributes
-- 2.3.3 Proximity measures for binary attributes
-- 2.3.4 Dissimilarity of numeric data: Minkowski distance
-- 2.3.5 Proximity measures for ordinal attributes
-- 2.3.6 Dissimilarity for attributes of mixed types
-- 2.3.7 Cosine similarity
-- 2.3.8 Measuring similar distributions: the Kullback–Leibler divergence
-- 2.3.9 Capturing hidden semantics in similarity measures
+* 2.3.1 Data matrix vs. dissimilarity matrix
+* 2.3.2 Proximity measures for nominal attributes
+* 2.3.3 Proximity measures for binary attributes
+* 2.3.4 Dissimilarity of numeric data: Minkowski distance
+* 2.3.5 Proximity measures for ordinal attributes
+* 2.3.6 Dissimilarity for attributes of mixed types
+* 2.3.7 Cosine similarity
+* 2.3.8 Measuring similar distributions: the Kullback–Leibler divergence
+* 2.3.9 Capturing hidden semantics in similarity measures
 
 ### 2.4 Data Quality, Data Cleaning, and Data Integration
 
-- 2.4.1 Data quality measures
-- 2.4.2 Data cleaning
-- 2.4.3 Data integration
+* 2.4.1 Data quality measures
+* 2.4.2 Data cleaning
+* 2.4.3 Data integration
 
 ### 2.5 Data Transformation
 
-- 2.5.1 Normalization
-- 2.5.2 Discretization
-- 2.5.3 Data compression
-- 2.5.4 Sampling
+* 2.5.1 Normalization
+* 2.5.2 Discretization
+* 2.5.3 Data compression
+* 2.5.4 Sampling
 
 ### 2.6 Dimensionality Reduction
 
-- 2.6.1 Principal components analysis
-- 2.6.2 Attribute subset selection
-- 2.6.3 Nonlinear dimensionality reduction methods
+* 2.6.1 Principal components analysis
+* 2.6.2 Attribute subset selection
+* 2.6.3 Nonlinear dimensionality reduction methods
 
 ## Chapter Focus
 
@@ -423,8 +468,8 @@ It begins with data and attribute types, proceeds through descriptive statistics
 
 **Files**
 
-- [`03/ch03.ipynb`](./03/ch03.ipynb)
-- [`03/ch03.pdf`](./03/ch03.pdf)
+* [`03/ch03.ipynb`](./03/ch03.ipynb)
+* [`03/ch03.pdf`](./03/ch03.pdf)
 
 **PDF length:** 116 pages
 
@@ -432,36 +477,36 @@ It begins with data and attribute types, proceeds through descriptive statistics
 
 ### 3.1 Data Warehouse
 
-- 3.1.1 Data warehouse: what and why?
-- 3.1.2 Architecture of data warehouses: enterprise data warehouses and data marts
-- 3.1.3 Data lakes
+* 3.1.1 Data warehouse: what and why?
+* 3.1.2 Architecture of data warehouses: enterprise data warehouses and data marts
+* 3.1.3 Data lakes
 
 ### 3.2 Data Warehouse Modeling: Schema and Measures
 
-- 3.2.1 Data cube: a multidimensional data model
-- 3.2.2 Schemas for multidimensional data models: stars, snowflakes, and fact constellations
-- 3.2.3 Concept hierarchies
-- 3.2.4 Measures: categorization and computation
+* 3.2.1 Data cube: a multidimensional data model
+* 3.2.2 Schemas for multidimensional data models: stars, snowflakes, and fact constellations
+* 3.2.3 Concept hierarchies
+* 3.2.4 Measures: categorization and computation
 
 ### 3.3 OLAP Operations
 
-- 3.3.1 Typical OLAP operations
-- 3.3.2 Indexing OLAP data: bitmap index and join index
-- 3.3.3 Storage implementation: column-based databases
+* 3.3.1 Typical OLAP operations
+* 3.3.2 Indexing OLAP data: bitmap index and join index
+* 3.3.3 Storage implementation: column-based databases
 
 ### 3.4 Data Cube Computation
 
-- 3.4.1 Terminology of data cube computation
-- 3.4.2 Data cube materialization: ideas
-- 3.4.3 OLAP server architectures: ROLAP vs. MOLAP vs. HOLAP
-- 3.4.4 General strategies for data cube computation
+* 3.4.1 Terminology of data cube computation
+* 3.4.2 Data cube materialization: ideas
+* 3.4.3 OLAP server architectures: ROLAP vs. MOLAP vs. HOLAP
+* 3.4.4 General strategies for data cube computation
 
 ### 3.5 Data Cube Computation Methods
 
-- 3.5.1 Multiway array aggregation for full cube computation
-- 3.5.2 BUC: computing iceberg cubes from the apex cuboid downward
-- 3.5.3 Precomputing shell fragments for fast high-dimensional OLAP
-- 3.5.4 Efficient processing of OLAP queries using cuboids
+* 3.5.1 Multiway array aggregation for full cube computation
+* 3.5.2 BUC: computing iceberg cubes from the apex cuboid downward
+* 3.5.3 Precomputing shell fragments for fast high-dimensional OLAP
+* 3.5.4 Efficient processing of OLAP queries using cuboids
 
 ## Chapter Focus
 
@@ -473,8 +518,8 @@ Chapter 3 focuses on the analytical infrastructure surrounding data mining, incl
 
 **Files**
 
-- [`04/ch04.ipynb`](./04/ch04.ipynb)
-- [`04/ch04.pdf`](./04/ch04.pdf)
+* [`04/ch04.ipynb`](./04/ch04.ipynb)
+* [`04/ch04.pdf`](./04/ch04.pdf)
 
 **PDF length:** 86 pages
 
@@ -482,23 +527,23 @@ Chapter 3 focuses on the analytical infrastructure surrounding data mining, incl
 
 ### 4.1 Basic Concepts
 
-- 4.1.1 Market basket analysis: a motivating example
-- 4.1.2 Frequent itemsets, closed itemsets, and association rules
+* 4.1.1 Market basket analysis: a motivating example
+* 4.1.2 Frequent itemsets, closed itemsets, and association rules
 
 ### 4.2 Frequent Itemset Mining Methods
 
-- 4.2.1 Apriori algorithm: finding frequent itemsets by confined candidate generation
-- 4.2.2 Generating association rules from frequent itemsets
-- 4.2.3 Improving the efficiency of Apriori
-- 4.2.4 A pattern-growth approach for mining frequent itemsets
-- 4.2.5 Mining frequent itemsets using the vertical data format
-- 4.2.6 Mining closed and max patterns
+* 4.2.1 Apriori algorithm: finding frequent itemsets by confined candidate generation
+* 4.2.2 Generating association rules from frequent itemsets
+* 4.2.3 Improving the efficiency of Apriori
+* 4.2.4 A pattern-growth approach for mining frequent itemsets
+* 4.2.5 Mining frequent itemsets using the vertical data format
+* 4.2.6 Mining closed and max patterns
 
 ### 4.3 Which Patterns Are Interesting? Pattern Evaluation Methods
 
-- 4.3.1 Strong rules are not necessarily interesting
-- 4.3.2 From association analysis to correlation analysis
-- 4.3.3 A comparison of pattern evaluation measures
+* 4.3.1 Strong rules are not necessarily interesting
+* 4.3.2 From association analysis to correlation analysis
+* 4.3.3 A comparison of pattern evaluation measures
 
 ## Chapter Focus
 
@@ -510,8 +555,8 @@ Chapter 4 introduces frequent-pattern mining and association analysis, progressi
 
 **Files**
 
-- [`05/ch05.ipynb`](./05/ch05.ipynb)
-- [`05/ch05.pdf`](./05/ch05.pdf)
+* [`05/ch05.ipynb`](./05/ch05.ipynb)
+* [`05/ch05.pdf`](./05/ch05.pdf)
 
 **PDF length:** 119 pages
 
@@ -519,38 +564,38 @@ Chapter 4 introduces frequent-pattern mining and association analysis, progressi
 
 ### 5.1 Mining Various Kinds of Patterns
 
-- 5.1.1 Mining multilevel associations
-- 5.1.2 Mining multidimensional associations
-- 5.1.3 Mining quantitative association rules
-- 5.1.4 Mining high-dimensional data
-- 5.1.5 Mining rare patterns and negative patterns
+* 5.1.1 Mining multilevel associations
+* 5.1.2 Mining multidimensional associations
+* 5.1.3 Mining quantitative association rules
+* 5.1.4 Mining high-dimensional data
+* 5.1.5 Mining rare patterns and negative patterns
 
 ### 5.2 Mining Compressed or Approximate Patterns
 
-- 5.2.1 Mining compressed patterns by pattern clustering
-- 5.2.2 Extracting redundancy-aware top-k patterns
+* 5.2.1 Mining compressed patterns by pattern clustering
+* 5.2.2 Extracting redundancy-aware top-k patterns
 
 ### 5.3 Constraint-Based Pattern Mining
 
-- 5.3.1 Pruning pattern space with pattern pruning constraints
-- 5.3.2 Pruning data space with data pruning constraints
-- 5.3.3 Mining space pruning with succinctness constraints
+* 5.3.1 Pruning pattern space with pattern pruning constraints
+* 5.3.2 Pruning data space with data pruning constraints
+* 5.3.3 Mining space pruning with succinctness constraints
 
 ### 5.4 Mining Sequential Patterns
 
-- 5.4.1 Sequential pattern mining: concepts and primitives
-- 5.4.2 Scalable methods for mining sequential patterns
-- 5.4.3 Constraint-based mining of sequential patterns
+* 5.4.1 Sequential pattern mining: concepts and primitives
+* 5.4.2 Scalable methods for mining sequential patterns
+* 5.4.3 Constraint-based mining of sequential patterns
 
 ### 5.5 Mining Subgraph Patterns
 
-- 5.5.1 Methods for mining frequent subgraphs
-- 5.5.2 Mining variant and constrained substructure patterns
+* 5.5.1 Methods for mining frequent subgraphs
+* 5.5.2 Mining variant and constrained substructure patterns
 
 ### 5.6 Pattern Mining: Application Examples
 
-- 5.6.1 Phrase mining in massive text data
-- 5.6.2 Mining copy and paste bugs in software programs
+* 5.6.1 Phrase mining in massive text data
+* 5.6.2 Mining copy and paste bugs in software programs
 
 ## Chapter Focus
 
@@ -562,8 +607,8 @@ Chapter 5 extends pattern mining to more complex structures and constraints, inc
 
 **Files**
 
-- [`06/ch06.ipynb`](./06/ch06.ipynb)
-- [`06/ch06.pdf`](./06/ch06.pdf)
+* [`06/ch06.ipynb`](./06/ch06.ipynb)
+* [`06/ch06.pdf`](./06/ch06.pdf)
 
 **PDF length:** 186 pages
 
@@ -571,47 +616,47 @@ Chapter 5 extends pattern mining to more complex structures and constraints, inc
 
 ### 6.1 Basic Concepts
 
-- 6.1.1 What is classification?
-- 6.1.2 General approach to classification
+* 6.1.1 What is classification?
+* 6.1.2 General approach to classification
 
 ### 6.2 Decision Tree Induction
 
-- 6.2.1 Decision tree induction
-- 6.2.2 Attribute selection measures
-- 6.2.3 Tree pruning
+* 6.2.1 Decision tree induction
+* 6.2.2 Attribute selection measures
+* 6.2.3 Tree pruning
 
 ### 6.3 Bayes Classification Methods
 
-- 6.3.1 Bayes' theorem
-- 6.3.2 Naive Bayesian classification
+* 6.3.1 Bayes' theorem
+* 6.3.2 Naive Bayesian classification
 
 ### 6.4 Lazy Learners
 
-- 6.4.1 k-nearest-neighbor classifiers
-- 6.4.2 Case-based reasoning
+* 6.4.1 k-nearest-neighbor classifiers
+* 6.4.2 Case-based reasoning
 
 ### 6.5 Linear Classifiers
 
-- 6.5.1 Linear regression
-- 6.5.2 Perceptron: turning linear regression to classification
-- 6.5.3 Logistic regression
+* 6.5.1 Linear regression
+* 6.5.2 Perceptron: turning linear regression to classification
+* 6.5.3 Logistic regression
 
 ### 6.6 Model Evaluation and Selection
 
-- 6.6.1 Metrics for evaluating classifier performance
-- 6.6.2 Holdout method and random subsampling
-- 6.6.3 Cross-validation
-- 6.6.4 Bootstrap
-- 6.6.5 Model selection using statistical tests of significance
-- 6.6.6 Comparing classifiers based on cost–benefit and ROC curves
+* 6.6.1 Metrics for evaluating classifier performance
+* 6.6.2 Holdout method and random subsampling
+* 6.6.3 Cross-validation
+* 6.6.4 Bootstrap
+* 6.6.5 Model selection using statistical tests of significance
+* 6.6.6 Comparing classifiers based on cost–benefit and ROC curves
 
 ### 6.7 Techniques to Improve Classification Accuracy
 
-- 6.7.1 Introducing ensemble methods
-- 6.7.2 Bagging
-- 6.7.3 Boosting
-- 6.7.4 Random forests
-- 6.7.5 Improving classification accuracy of class-imbalanced data
+* 6.7.1 Introducing ensemble methods
+* 6.7.2 Bagging
+* 6.7.3 Boosting
+* 6.7.4 Random forests
+* 6.7.5 Improving classification accuracy of class-imbalanced data
 
 ## Chapter Focus
 
@@ -625,8 +670,8 @@ It covers decision trees, Bayes classifiers, k-nearest neighbors, case-based rea
 
 **Files**
 
-- [`07/ch07.ipynb`](./07/ch07.ipynb)
-- [`07/ch07.pdf`](./07/ch07.pdf)
+* [`07/ch07.ipynb`](./07/ch07.ipynb)
+* [`07/ch07.pdf`](./07/ch07.pdf)
 
 **PDF length:** 183 pages
 
@@ -634,49 +679,49 @@ It covers decision trees, Bayes classifiers, k-nearest neighbors, case-based rea
 
 ### 7.1 Feature Selection and Engineering
 
-- 7.1.1 Filter methods
-- 7.1.2 Wrapper methods
-- 7.1.3 Embedded methods
+* 7.1.1 Filter methods
+* 7.1.2 Wrapper methods
+* 7.1.3 Embedded methods
 
 ### 7.2 Bayesian Belief Networks
 
-- 7.2.1 Concepts and mechanisms
-- 7.2.2 Training Bayesian belief networks
+* 7.2.1 Concepts and mechanisms
+* 7.2.2 Training Bayesian belief networks
 
 ### 7.3 Support Vector Machines
 
-- 7.3.1 Linear support vector machines
-- 7.3.2 Nonlinear support vector machines
+* 7.3.1 Linear support vector machines
+* 7.3.2 Nonlinear support vector machines
 
 ### 7.4 Rule-Based and Pattern-Based Classification
 
-- 7.4.1 Using IF-THEN rules for classification
-- 7.4.2 Rule extraction from a decision tree
-- 7.4.3 Rule induction using a sequential covering algorithm
-- 7.4.4 Associative classification
-- 7.4.5 Discriminative frequent pattern-based classification
+* 7.4.1 Using IF-THEN rules for classification
+* 7.4.2 Rule extraction from a decision tree
+* 7.4.3 Rule induction using a sequential covering algorithm
+* 7.4.4 Associative classification
+* 7.4.5 Discriminative frequent pattern-based classification
 
 ### 7.5 Classification with Weak Supervision
 
-- 7.5.1 Semisupervised classification
-- 7.5.2 Active learning
-- 7.5.3 Transfer learning
-- 7.5.4 Distant supervision
-- 7.5.5 Zero-shot learning
+* 7.5.1 Semisupervised classification
+* 7.5.2 Active learning
+* 7.5.3 Transfer learning
+* 7.5.4 Distant supervision
+* 7.5.5 Zero-shot learning
 
 ### 7.6 Classification with Rich Data Types
 
-- 7.6.1 Stream data classification
-- 7.6.2 Sequence classification
-- 7.6.3 Graph data classification
+* 7.6.1 Stream data classification
+* 7.6.2 Sequence classification
+* 7.6.3 Graph data classification
 
 ### 7.7 Potpourri: Other Related Techniques
 
-- 7.7.1 Multiclass classification
-- 7.7.2 Distance metric learning
-- 7.7.3 Interpretability of classification
-- 7.7.4 Genetic algorithms
-- 7.7.5 Reinforcement learning
+* 7.7.1 Multiclass classification
+* 7.7.2 Distance metric learning
+* 7.7.3 Interpretability of classification
+* 7.7.4 Genetic algorithms
+* 7.7.5 Reinforcement learning
 
 ## Chapter Focus
 
@@ -688,8 +733,8 @@ Chapter 7 extends classification to advanced modeling approaches, feature select
 
 **Files**
 
-- [`08/ch08.ipynb`](./08/ch08.ipynb)
-- [`08/ch08.pdf`](./08/ch08.pdf)
+* [`08/ch08.ipynb`](./08/ch08.ipynb)
+* [`08/ch08.pdf`](./08/ch08.pdf)
 
 **PDF length:** 115 pages
 
@@ -697,35 +742,35 @@ Chapter 7 extends classification to advanced modeling approaches, feature select
 
 ### 8.1 Cluster Analysis
 
-- 8.1.1 What is cluster analysis?
-- 8.1.2 Requirements for cluster analysis
-- 8.1.3 Overview of basic clustering methods
+* 8.1.1 What is cluster analysis?
+* 8.1.2 Requirements for cluster analysis
+* 8.1.3 Overview of basic clustering methods
 
 ### 8.2 Partitioning Methods
 
-- 8.2.1 k-Means: a centroid-based technique
-- 8.2.2 Variations of k-means
+* 8.2.1 k-Means: a centroid-based technique
+* 8.2.2 Variations of k-means
 
 ### 8.3 Hierarchical Methods
 
-- 8.3.1 Basic concepts of hierarchical clustering
-- 8.3.2 Agglomerative hierarchical clustering
-- 8.3.3 Divisive hierarchical clustering
-- 8.3.4 BIRCH: scalable hierarchical clustering using clustering feature trees
-- 8.3.5 Probabilistic hierarchical clustering
+* 8.3.1 Basic concepts of hierarchical clustering
+* 8.3.2 Agglomerative hierarchical clustering
+* 8.3.3 Divisive hierarchical clustering
+* 8.3.4 BIRCH: scalable hierarchical clustering using clustering feature trees
+* 8.3.5 Probabilistic hierarchical clustering
 
 ### 8.4 Density-Based and Grid-Based Methods
 
-- 8.4.1 DBSCAN: density-based clustering based on connected regions with high density
-- 8.4.2 DENCLUE: clustering based on density distribution functions
-- 8.4.3 Grid-based methods
+* 8.4.1 DBSCAN: density-based clustering based on connected regions with high density
+* 8.4.2 DENCLUE: clustering based on density distribution functions
+* 8.4.3 Grid-based methods
 
 ### 8.5 Evaluation of Clustering
 
-- 8.5.1 Assessing clustering tendency
-- 8.5.2 Determining the number of clusters
-- 8.5.3 Measuring clustering quality: extrinsic methods
-- 8.5.4 Intrinsic methods
+* 8.5.1 Assessing clustering tendency
+* 8.5.2 Determining the number of clusters
+* 8.5.3 Measuring clustering quality: extrinsic methods
+* 8.5.4 Intrinsic methods
 
 ## Chapter Focus
 
@@ -737,48 +782,53 @@ Chapter 8 introduces clustering as an unsupervised-learning problem and examines
 
 **Files**
 
-- [`09/ch09.ipynb`](./09/ch09.ipynb)
-- [`09/ch09.pdf`](./09/ch09.pdf)
+* [`09/ch09.ipynb`](./09/ch09.ipynb)
+* [`09/ch09.pdf`](./09/ch09.pdf)
 
 **PDF length:** 125 pages
 
 ## Topics
 
 ### 9.1 Probabilistic Model-Based Clustering
-- 9.1.1 Fuzzy clusters
-- 9.1.2 Probabilistic model-based clusters
-- 9.1.3 Expectation-maximization algorithm
+
+* 9.1.1 Fuzzy clusters
+* 9.1.2 Probabilistic model-based clusters
+* 9.1.3 Expectation-maximization algorithm
 
 ### 9.2 Clustering High-Dimensional Data
-- 9.2.1 Why is clustering high-dimensional data challenging?
-- 9.2.2 Axis-parallel subspace approaches
-- 9.2.3 Arbitrarily oriented subspace approaches
+
+* 9.2.1 Why is clustering high-dimensional data challenging?
+* 9.2.2 Axis-parallel subspace approaches
+* 9.2.3 Arbitrarily oriented subspace approaches
 
 ### 9.3 Biclustering
-- 9.3.1 Why and where is biclustering useful?
-- 9.3.2 Types of biclusters
-- 9.3.3 Biclustering methods
-- 9.3.4 Enumerating all biclusters using MaPle
+
+* 9.3.1 Why and where is biclustering useful?
+* 9.3.2 Types of biclusters
+* 9.3.3 Biclustering methods
+* 9.3.4 Enumerating all biclusters using MaPle
 
 ### 9.4 Dimensionality Reduction for Clustering
-- 9.4.1 Linear dimensionality reduction methods for clustering
-- 9.4.2 Nonnegative matrix factorization (NMF)
-- 9.4.3 Spectral clustering
+
+* 9.4.1 Linear dimensionality reduction methods for clustering
+* 9.4.2 Nonnegative matrix factorization (NMF)
+* 9.4.3 Spectral clustering
 
 ### 9.5 Clustering Graph and Network Data
-- 9.5.1 Applications and challenges
-- 9.5.2 Similarity measures
-- 9.5.3 Graph clustering methods
+
+* 9.5.1 Applications and challenges
+* 9.5.2 Similarity measures
+* 9.5.3 Graph clustering methods
 
 ### 9.6 Semisupervised Clustering
-- 9.6.1 Semisupervised clustering on partially labeled data
-- 9.6.2 Semisupervised clustering on pairwise constraints
-- 9.6.3 Other types of background knowledge for semisupervised clustering
+
+* 9.6.1 Semisupervised clustering on partially labeled data
+* 9.6.2 Semisupervised clustering on pairwise constraints
+* 9.6.3 Other types of background knowledge for semisupervised clustering
 
 ## Chapter Focus
 
 Chapter 9 presents advanced clustering methods beyond the basic clustering techniques, covering fuzzy and probabilistic model-based clusters, high-dimensional clustering, biclustering, dimensionality reduction, graph and network clustering, and the use of background knowledge in semisupervised clustering.
-
 
 ---
 
@@ -786,8 +836,8 @@ Chapter 9 presents advanced clustering methods beyond the basic clustering techn
 
 **Files**
 
-- [`10/ch10.ipynb`](./10/ch10.ipynb)
-- [`10/ch10.pdf`](./10/ch10.pdf)
+* [`10/ch10.ipynb`](./10/ch10.ipynb)
+* [`10/ch10.pdf`](./10/ch10.pdf)
 
 **PDF length:** 108 pages
 
@@ -795,38 +845,38 @@ Chapter 9 presents advanced clustering methods beyond the basic clustering techn
 
 ### 10.1 Basic Concepts
 
-- 10.1.1 What is deep learning?
-- 10.1.2 Backpropagation algorithm
-- 10.1.3 Key challenges for training deep learning models
-- 10.1.4 Overview of deep learning architecture
+* 10.1.1 What is deep learning?
+* 10.1.2 Backpropagation algorithm
+* 10.1.3 Key challenges for training deep learning models
+* 10.1.4 Overview of deep learning architecture
 
 ### 10.2 Improve Training of Deep Learning Models
 
-- 10.2.1 Responsive activation functions
-- 10.2.2 Adaptive learning rate
-- 10.2.3 Dropout
-- 10.2.4 Pretraining
-- 10.2.5 Cross-entropy
-- 10.2.6 Autoencoder: unsupervised deep learning
-- 10.2.7 Other techniques
+* 10.2.1 Responsive activation functions
+* 10.2.2 Adaptive learning rate
+* 10.2.3 Dropout
+* 10.2.4 Pretraining
+* 10.2.5 Cross-entropy
+* 10.2.6 Autoencoder: unsupervised deep learning
+* 10.2.7 Other techniques
 
 ### 10.3 Convolutional Neural Networks
 
-- 10.3.1 Introducing convolution operation
-- 10.3.2 Multidimensional convolution
-- 10.3.3 Convolutional layer
+* 10.3.1 Introducing convolution operation
+* 10.3.2 Multidimensional convolution
+* 10.3.3 Convolutional layer
 
 ### 10.4 Recurrent Neural Networks
 
-- 10.4.1 Basic RNN models and applications
-- 10.4.2 Gated RNNs
-- 10.4.3 Other techniques for addressing long-term dependence
+* 10.4.1 Basic RNN models and applications
+* 10.4.2 Gated RNNs
+* 10.4.3 Other techniques for addressing long-term dependence
 
 ### 10.5 Graph Neural Networks
 
-- 10.5.1 Basic concepts
-- 10.5.2 Graph convolutional networks
-- 10.5.3 Other types of GNNs
+* 10.5.1 Basic concepts
+* 10.5.2 Graph convolutional networks
+* 10.5.3 Other types of GNNs
 
 ## Chapter Focus
 
@@ -838,46 +888,53 @@ Chapter 10 introduces deep learning from neural-network fundamentals through mod
 
 **Files**
 
-- [`11/ch11.ipynb`](./11/ch11.ipynb)
-- [`11/ch11.pdf`](./11/ch11.pdf)
+* [`11/ch11.ipynb`](./11/ch11.ipynb)
+* [`11/ch11.pdf`](./11/ch11.pdf)
 
 **PDF length:** 141 pages
 
 ## Topics
 
 ### 11.1 Basic Concepts
-- 11.1.1 What are outliers?
-- 11.1.2 Types of outliers
-- 11.1.3 Challenges of outlier detection
-- 11.1.4 An overview of outlier detection methods
+
+* 11.1.1 What are outliers?
+* 11.1.2 Types of outliers
+* 11.1.3 Challenges of outlier detection
+* 11.1.4 An overview of outlier detection methods
 
 ### 11.2 Statistical Approaches
-- 11.2.1 Parametric methods
-- 11.2.2 Nonparametric methods
+
+* 11.2.1 Parametric methods
+* 11.2.2 Nonparametric methods
 
 ### 11.3 Proximity-Based Approaches
-- 11.3.1 Distance-based outlier detection
-- 11.3.2 Density-based outlier detection
+
+* 11.3.1 Distance-based outlier detection
+* 11.3.2 Density-based outlier detection
 
 ### 11.4 Reconstruction-Based Approaches
-- 11.4.1 Matrix factorization–based methods for numerical data
-- 11.4.2 Pattern-based compression methods for categorical data
+
+* 11.4.1 Matrix factorization–based methods for numerical data
+* 11.4.2 Pattern-based compression methods for categorical data
 
 ### 11.5 Clustering- vs. Classification-Based Approaches
-- 11.5.1 Clustering-based approaches
-- 11.5.2 Classification-based approaches
+
+* 11.5.1 Clustering-based approaches
+* 11.5.2 Classification-based approaches
 
 ### 11.6 Mining Contextual and Collective Outliers
-- 11.6.1 Transforming contextual outlier detection to conventional outlier detection
-- 11.6.2 Modeling normal behavior with respect to contexts
-- 11.6.3 Mining collective outliers
+
+* 11.6.1 Transforming contextual outlier detection to conventional outlier detection
+* 11.6.2 Modeling normal behavior with respect to contexts
+* 11.6.3 Mining collective outliers
 
 ### 11.7 Outlier Detection in High-Dimensional Data
-- 11.7.1 Extending conventional outlier detection
-- 11.7.2 Finding outliers in subspaces
-- 11.7.3 Outlier detection ensemble
-- 11.7.4 Taming high dimensionality by deep learning
-- 11.7.5 Modeling high-dimensional outliers
+
+* 11.7.1 Extending conventional outlier detection
+* 11.7.2 Finding outliers in subspaces
+* 11.7.3 Outlier detection ensemble
+* 11.7.4 Taming high dimensionality by deep learning
+* 11.7.5 Modeling high-dimensional outliers
 
 ## Chapter Focus
 
@@ -889,8 +946,8 @@ Chapter 11 focuses on outlier and anomaly detection, covering statistical, dista
 
 **Files**
 
-- [`12/ch12.ipynb`](./12/ch12.ipynb)
-- [`12/ch12.pdf`](./12/ch12.pdf)
+* [`12/ch12.ipynb`](./12/ch12.ipynb)
+* [`12/ch12.pdf`](./12/ch12.pdf)
 
 **PDF length:** 120 pages
 
@@ -898,31 +955,31 @@ Chapter 11 focuses on outlier and anomaly detection, covering statistical, dista
 
 ### 12.1 Mining Rich Data Types
 
-- 12.1.1 Mining text data
-- 12.1.2 Spatial-temporal data
-- 12.1.3 Graphs and networks
+* 12.1.1 Mining text data
+* 12.1.2 Spatial-temporal data
+* 12.1.3 Graphs and networks
 
 ### 12.2 Data Mining Applications
 
-- 12.2.1 Data mining for sentiment and opinion
-- 12.2.2 Truth discovery and misinformation identification
-- 12.2.3 Information and disease propagation
-- 12.2.4 Productivity and team science
+* 12.2.1 Data mining for sentiment and opinion
+* 12.2.2 Truth discovery and misinformation identification
+* 12.2.3 Information and disease propagation
+* 12.2.4 Productivity and team science
 
 ### 12.3 Data Mining Methodologies and Systems
 
-- 12.3.1 Structuring unstructured data for knowledge mining: a data-driven approach
-- 12.3.2 Data augmentation
-- 12.3.3 From correlation to causality
-- 12.3.4 Network as a context
-- 12.3.5 AutoML: methods and systems
+* 12.3.1 Structuring unstructured data for knowledge mining: a data-driven approach
+* 12.3.2 Data augmentation
+* 12.3.3 From correlation to causality
+* 12.3.4 Network as a context
+* 12.3.5 AutoML: methods and systems
 
 ### 12.4 Data Mining, People, and Society
 
-- 12.4.1 Privacy-preserving data mining
-- 12.4.2 Human-algorithm interaction
-- 12.4.3 Mining beyond maximizing accuracy: fairness, interpretability, and robustness
-- 12.4.4 Data mining for social good
+* 12.4.1 Privacy-preserving data mining
+* 12.4.2 Human-algorithm interaction
+* 12.4.3 Mining beyond maximizing accuracy: fairness, interpretability, and robustness
+* 12.4.4 Data mining for social good
 
 ## Chapter Focus
 
@@ -966,16 +1023,16 @@ The `.ipynb` files are the interactive form of the textbook.
 
 They contain combinations of:
 
-- Markdown explanations
-- Mathematical notation
-- Structured headings
-- HTML/CSS-enhanced presentation
-- Images
-- Diagrams
-- Python code
-- Data visualizations
-- Explanatory output
-- Examples and demonstrations
+* Markdown explanations
+* Mathematical notation
+* Structured headings
+* HTML/CSS-enhanced presentation
+* Images
+* Diagrams
+* Python code
+* Data visualizations
+* Explanatory output
+* Examples and demonstrations
 
 The Notebook format keeps multiple layers of learning together:
 
@@ -999,18 +1056,70 @@ Visualization / output
 
 Each published chapter includes a corresponding PDF.
 
-The PDF format is intended for:
+The chapter-level PDFs are intended for:
 
-- Linear reading
-- Printing
-- Offline study
-- Annotation
-- Long-form review
-- Archival use
+* Linear reading
+* Printing
+* Offline study
+* Annotation
+* Long-form review
+* Chapter-by-chapter reference
 
 For interactive exploration and code execution, use the Notebook version.
 
 For stable reading and printing, use the PDF version.
+
+For readers who prefer the entire textbook in one document, the repository also provides a complete compiled PDF.
+
+---
+
+# Full Version PDF
+
+The complete textbook is available as a single PDF containing the published material from all 12 chapters.
+
+**[Open the Full Version PDF](./Full_version/Data_Mining_Textbook.pdf)**
+
+File location:
+
+```text
+Full_version/
+└── Data_Mining_Textbook.pdf
+```
+
+The Full Version is intended for readers who want:
+
+* The entire textbook in a single file
+* Continuous reading across chapters
+* Offline study
+* Printing
+* Archival use
+* A single reference document instead of separate chapter PDFs
+
+The chapter-level PDFs remain available alongside the complete version for readers who prefer smaller, chapter-specific files.
+
+> **Note:** The complete PDF is stored using **Git Large File Storage (Git LFS)** because of its file size.
+
+---
+
+# Git LFS
+
+The complete textbook PDF is managed with **Git Large File Storage (Git LFS)**.
+
+The repository tracks:
+
+```text
+Full_version/Data_Mining_Textbook.pdf
+```
+
+through the repository's `.gitattributes` configuration.
+
+Git LFS allows the repository to keep the large PDF associated with the Git project without storing the full binary content directly inside the normal Git object history.
+
+If you clone the repository and want to access the complete PDF normally, make sure Git LFS is installed and initialized on your system.
+
+Official Git LFS documentation:
+
+https://git-lfs.com/
 
 ---
 
@@ -1022,11 +1131,11 @@ GitHub can render Jupyter Notebook files for reading.
 
 This is useful for:
 
-- Reading Markdown
-- Inspecting equations
-- Browsing code
-- Viewing saved outputs
-- Navigating the chapter structure
+* Reading Markdown
+* Inspecting equations
+* Browsing code
+* Viewing saved outputs
+* Navigating the chapter structure
 
 GitHub rendering does not provide a full local execution environment.
 
@@ -1073,58 +1182,58 @@ The following libraries appear across the published notebooks.
 
 ## Scientific Computing and Data Analysis
 
-- `numpy`
-- `pandas`
-- `matplotlib`
-- `seaborn`
-- `scipy`
+* `numpy`
+* `pandas`
+* `matplotlib`
+* `seaborn`
+* `scipy`
 
 ## Machine Learning
 
-- `scikit-learn`
+* `scikit-learn`
 
 ## Graph and Network Analysis
 
-- `networkx`
+* `networkx`
 
 ## Natural Language Processing
 
-- `nltk`
-- `gensim`
-- `textblob`
+* `nltk`
+* `gensim`
+* `textblob`
 
 ## Pattern Mining
 
-- `mlxtend`
+* `mlxtend`
 
 ## Geometry and Spatial Processing
 
-- `shapely`
+* `shapely`
 
 ## Image Processing
 
-- `scikit-image`
+* `scikit-image`
 
 ## Notebook / Interactive Computing
 
-- `IPython`
-- Jupyter environment components
+* `IPython`
+* Jupyter environment components
 
 ## Standard Python Library
 
 The notebooks also use standard-library modules where appropriate, including:
 
-- `re`
-- `math`
-- `collections`
-- `itertools`
-- `time`
-- `warnings`
-- `os`
-- `json`
-- `sqlite3`
-- `zipfile`
-- `urllib`
+* `re`
+* `math`
+* `collections`
+* `itertools`
+* `time`
+* `warnings`
+* `os`
+* `json`
+* `sqlite3`
+* `zipfile`
+* `urllib`
 
 The exact dependency set depends on the chapter and on which cells the reader chooses to execute.
 
@@ -1272,9 +1381,9 @@ textblob
 
 Metadata in the current notebooks shows that the material has been created or edited in multiple Python 3 environments, including:
 
-- Python 3.12.5
-- Python 3.13.5
-- Python 3.13.7
+* Python 3.12.5
+* Python 3.13.5
+* Python 3.13.7
 
 The repository should therefore be treated as course material rather than as a software project with a single locked interpreter version.
 
@@ -1316,18 +1425,18 @@ The applicable legal text is provided in [`LICENSE`](./LICENSE).
 
 Official license page:
 
-<https://creativecommons.org/licenses/by-nc-nd/4.0/>
+https://creativecommons.org/licenses/by-nc-nd/4.0/
 
 ## Practical Summary
 
 For material covered by this license:
 
-- You may read the material.
-- You may download the material.
-- You may share the original material in permitted non-commercial contexts.
-- Appropriate attribution must be retained.
-- Commercial use is not permitted under this license.
-- Distribution of adapted material is not permitted under this license.
+* You may read the material.
+* You may download the material.
+* You may share the original material in permitted non-commercial contexts.
+* Appropriate attribution must be retained.
+* Commercial use is not permitted under this license.
+* Distribution of adapted material is not permitted under this license.
 
 This section is only a practical summary. The legal terms in [`LICENSE`](./LICENSE) are authoritative.
 
@@ -1370,14 +1479,14 @@ For permissions outside the published license, contact the rights holders.
 
 If this repository is used as a source in:
 
-- A university project
-- A course presentation
-- A report
-- A paper
-- A research project
-- Educational material
-- A tutorial
-- A lecture
+* A university project
+* A course presentation
+* A report
+* A paper
+* A research project
+* Educational material
+* A tutorial
+* A lecture
 
 please cite the authors and link to the original repository.
 
@@ -1415,7 +1524,7 @@ This BibTeX entry is a practical repository citation template and does not imply
 
 Official repository:
 
-<https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook>
+https://github.com/Amir-Mohammd-Asadjoo/Data-Mining-Textbook
 
 ## Clone
 
@@ -1440,6 +1549,18 @@ or:
 ```bash
 jupyter notebook
 ```
+
+## Complete Textbook
+
+The complete textbook PDF is available at:
+
+```text
+Full_version/Data_Mining_Textbook.pdf
+```
+
+and can also be accessed directly from the repository:
+
+**[Full Version PDF](./Full_version/Data_Mining_Textbook.pdf)**
 
 ---
 
@@ -1466,12 +1587,13 @@ The public repository is intended to preserve and distribute the current Version
 
 The release policy is intentionally simple:
 
-- Completed chapters are published.
-- Chapters still under development remain private until they are ready.
-- Notebook and PDF versions are published together.
-- Author attribution is explicit.
-- Third-party material remains subject to its own rights.
-- Future versions may revise both content and repository organization.
+* Completed chapters are published.
+* Chapters still under development remain private until they are ready.
+* Notebook and chapter-level PDF versions are published together.
+* A complete textbook PDF is provided separately for consolidated reading.
+* Author attribution is explicit.
+* Third-party material remains subject to its own rights.
+* Future versions may revise both content and repository organization.
 
 ---
 
@@ -1479,15 +1601,16 @@ The release policy is intentionally simple:
 
 Future releases may include:
 
-- Revisions to existing chapters
-- Corrections and typo fixes
-- Updated examples
-- Additional visualizations
-- Additional implementations
-- Improved dependency documentation
-- Reproducibility improvements
-- More detailed citation metadata
-- GitHub release tags and version identifiers
+* Revisions to existing chapters
+* Corrections and typo fixes
+* Updated examples
+* Additional visualizations
+* Additional implementations
+* Improved dependency documentation
+* Reproducibility improvements
+* More detailed citation metadata
+* GitHub release tags and version identifiers
+* Updated consolidated textbook PDFs
 
 ---
 
@@ -1497,24 +1620,24 @@ The notebooks and PDFs are educational course materials.
 
 Care is taken during preparation, but educational material may still contain:
 
-- Typographical errors
-- Formatting issues
-- Mathematical mistakes
-- Implementation issues
-- Broken links
-- Incomplete explanations
+* Typographical errors
+* Formatting issues
+* Mathematical mistakes
+* Implementation issues
+* Broken links
+* Incomplete explanations
 
 Readers are encouraged to report issues through GitHub Issues.
 
 When reporting a technical problem, include:
 
-- Chapter number
-- File path
-- Section
-- Description of the problem
-- Error message, if applicable
-- Python version
-- Relevant package versions
+* Chapter number
+* File path
+* Section
+* Description of the problem
+* Error message, if applicable
+* Python version
+* Relevant package versions
 
 This information makes issues easier to reproduce and resolve.
 
@@ -1530,17 +1653,17 @@ However, technical and editorial feedback is welcome.
 
 Examples include:
 
-- Typographical errors
-- Broken internal links
-- Missing images
-- Incorrect image paths
-- Notebook rendering problems
-- Code execution problems
-- Formatting inconsistencies
-- Incorrect chapter references
-- Citation issues
-- Attribution issues
-- Documentation problems
+* Typographical errors
+* Broken internal links
+* Missing images
+* Incorrect image paths
+* Notebook rendering problems
+* Code execution problems
+* Formatting inconsistencies
+* Incorrect chapter references
+* Citation issues
+* Attribution issues
+* Documentation problems
 
 ## Suggested Issue Template
 
@@ -1583,6 +1706,28 @@ The current version represents a major restructuring and reworking of the earlie
 
 Chapters **1–12** are currently published.
 
+## Is there a complete PDF of the textbook?
+
+Yes.
+
+A complete PDF containing the published textbook material is available at:
+
+**[Full Version PDF](./Full_version/Data_Mining_Textbook.pdf)**
+
+The repository also retains the individual chapter PDFs for chapter-level access.
+
+## Why is the complete PDF stored with Git LFS?
+
+The complete textbook PDF is substantially larger than a typical Git repository file.
+
+It is therefore stored using **Git Large File Storage (Git LFS)** rather than as a normal Git binary object.
+
+## Do I need Git LFS to read the complete PDF?
+
+If you download the complete PDF directly from GitHub, no separate Python environment is required.
+
+If you clone the repository and want Git to retrieve the LFS-managed PDF automatically, Git LFS should be installed and configured on your system.
+
 ## Do I need Python to read the textbook?
 
 No.
@@ -1623,12 +1768,12 @@ For uses outside the published license, contact the rights holders before procee
 
 When requesting additional permission, it is useful to provide:
 
-- The material you want to use
-- The intended purpose
-- Whether the use is educational or commercial
-- Whether the material will be modified
-- Where it will be distributed
-- The expected audience
+* The material you want to use
+* The intended purpose
+* Whether the use is educational or commercial
+* Whether the material will be modified
+* Where it will be distributed
+* The expected audience
 
 Additional permission is separate from the rights already granted by the published license.
 
@@ -1644,21 +1789,14 @@ This collection is the result of collaborative work by the course design team un
 
 ## Design Team
 
-- [**Hamid Namjoo**](https://hamidnamjoo.com/)
-
-- [**Amir Hossein Hemmati**](https://github.com/AmirHosseinHemati)
-
-- [**Amir Mohammad Asadjoo**](https://github.com/Amir-Mohammd-Asadjoo)
-
-- **Ali Nikvan**  
-
-- **Reza Liaqat**  
-
-- **Alireza Moghaddas**  
-
-- **Golnoush Hosseinpour**  
-
-- **Elham Izadi**
+* [**Hamid Namjoo**](https://hamidnamjoo.com/)
+* [**Amir Hossein Hemmati**](https://github.com/AmirHosseinHemati)
+* [**Amir Mohammad Asadjoo**](https://github.com/Amir-Mohammd-Asadjoo)
+* **Ali Nikvan**
+* **Reza Liaqat**
+* **Alireza Moghaddas**
+* **Golnoush Hosseinpour**
+* **Elham Izadi**
 
 ---
 
