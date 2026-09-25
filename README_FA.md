@@ -146,7 +146,7 @@ Jupyter Notebookها منبع اصلی و تعاملی کتاب هستند، د�
 
 علاوه بر PDFهای فصل‌ها، این مخزن **نسخه کامل کتاب درسی** را به‌صورت یک فایل PDF واحد نیز ارائه می‌دهد:
 
-**[مشاهده / دانلود PDF کامل کتاب درسی داده‌کاوی](https://www.google.com/search?q=./Full_version/Data_Mining_Textbook.pdf&utm_source=gemini)**
+**[مشاهده / دانلود PDF کامل کتاب درسی داده‌کاوی](./Full_version/Data_Mining_Textbook.pdf)**
 
 PDF کامل، مطالب فصل‌های منتشرشده را در یک سند یکپارچه ترکیب کرده و به‌صورت جداگانه از PDFهای فصل‌ها نگهداری می‌شود.
 
@@ -161,25 +161,25 @@ PDF کامل، مطالب فصل‌های منتشرشده را در یک سند
 | دانشکده | دانشکده مهندسی کامپیوتر |
 | نیمسال | پاییز ۲۰۲۶ |
 | سال تحصیلی | ۲۰۲۶–۲۰۲۷ |
-| مدرس | [دکتر امین اسکندری](https://www.google.com/search?q=https://ir.linkedin.com/in/amin-eskandari-1756a73b&utm_source=gemini) |
+| مدرس | [دکتر امین اسکندری](https://ir.linkedin.com/in/amin-eskandari-1756a73b) |
 | زبان اصلی | فارسی |
 | اصطلاحات فنی | اصطلاحات انگلیسی همراه با توضیحات فارسی |
 | قالب تعاملی | Jupyter Notebook |
 | قالب مطالعه / چاپ | PDF |
-| کتاب کامل | [PDF نسخه کامل](https://www.google.com/search?q=./Full_version/Data_Mining_Textbook.pdf&utm_source=gemini) |
+| کتاب کامل | [PDF نسخه کامل](./Full_version/Data_Mining_Textbook.pdf) |
 | ویرایش | نسخه ۲ |
 
 ---
 
 # مدرس
 
-## [دکتر امین اسکندری](https://www.google.com/search?q=https://ir.linkedin.com/in/amin-eskandari-1756a73b&utm_source=gemini)
+## [دکتر امین اسکندری](https://ir.linkedin.com/in/amin-eskandari-1756a73b)
 
 **مدرس درس**
 
 مدرس معرفی‌شده در محتوای درس:
 
-**[Dr. Amin Eskandari](https://www.google.com/search?q=https://ir.linkedin.com/in/amin-eskandari-1756a73b&utm_source=gemini)**
+**[Dr. Amin Eskandari](https://ir.linkedin.com/in/amin-eskandari-1756a73b)**
 
 ---
 
@@ -187,9 +187,9 @@ PDF کامل، مطالب فصل‌های منتشرشده را در یک سند
 
 افراد زیر در محتوای درس به‌عنوان اعضای تیم طراحی مسئول تهیه و سازمان‌دهی کتاب درسی معرفی شده‌اند:
 
-1. **[Hamid Namjoo](https://www.google.com/search?q=https://hamidnamjoo.com/&utm_source=gemini)**
-2. **[Amir Hossein Hemmati](https://www.google.com/search?q=https://github.com/AmirHosseinHemati&utm_source=gemini)**
-3. **[AmirMohammad Asadjoo](https://www.google.com/search?q=https://github.com/Amir-Mohammd-Asadjoo&utm_source=gemini)**
+1. **[Hamid Namjoo](https://hamidnamjoo.com/)**
+2. **[Amir Hossein Hemmati](https://github.com/AmirHosseinHemati)**
+3. **[AmirMohammad Asadjoo](https://github.com/Amir-Mohammd-Asadjoo)**
 4. **Ali Nikvan**
 5. **Reza Liaqat**
 6. **Alireza Moghaddas**
@@ -362,8 +362,8 @@ __pycache__/
 
 **فایل‌ها**
 
-* [`01/ch01.ipynb`](https://www.google.com/search?q=./01/ch01.ipynb&utm_source=gemini)
-* [`01/ch01.pdf`](https://www.google.com/search?q=./01/ch01.pdf&utm_source=gemini)
+* [`01/ch01.ipynb`](./01/ch01.ipynb)
+* [`01/ch01.pdf`](./01/ch01.pdf)
 
 **تعداد صفحات PDF:** 97 صفحه
 
@@ -408,9 +408,8 @@ __pycache__/
 # فصل ۰۲ – داده، اندازه‌گیری‌ها و پیش‌پردازش داده
 
 **فایل‌ها**
-
-* [`02/ch02.ipynb`](https://www.google.com/search?q=./02/ch02.ipynb&utm_source=gemini)
-* [`02/ch02.pdf`](https://www.google.com/search?q=./02/ch02.pdf&utm_source=gemini)
+* [`02/ch02.ipynb`](./02/ch02.ipynb)
+* [`02/ch02.pdf`](./02/ch02.pdf)
 
 **تعداد صفحات PDF:** 163 صفحه
 
@@ -474,8 +473,8 @@ __pycache__/
 
 **فایل‌ها**
 
-* [`03/ch03.ipynb`](https://www.google.com/search?q=./03/ch03.ipynb&utm_source=gemini)
-* [`03/ch03.pdf`](https://www.google.com/search?q=./03/ch03.pdf&utm_source=gemini)
+* [`03/ch03.ipynb`](./03/ch03.ipynb)
+* [`03/ch03.pdf`](./03/ch03.pdf)
 
 **تعداد صفحات PDF:** 116 صفحه
 
@@ -523,10 +522,8 @@ __pycache__/
 # فصل ۰۴ – استخراج الگو: مفاهیم و روش‌های پایه
 
 **فایل‌ها**
-
-* [`04/ch04.ipynb`](https://www.google.com/search?q=./04/ch04.ipynb&utm_source=gemini)
-* [`04/ch04.pdf`](https://www.google.com/search?q=./04/ch04.pdf&utm_source=gemini)
-
+* [`04/ch04.ipynb`](./04/ch04.ipynb)
+* [`04/ch04.pdf`](./04/ch04.pdf)
 **تعداد صفحات PDF:** 86 صفحه
 
 ## موضوعات
@@ -561,8 +558,8 @@ __pycache__/
 
 **فایل‌ها**
 
-* [`05/ch05.ipynb`](https://www.google.com/search?q=./05/ch05.ipynb&utm_source=gemini)
-* [`05/ch05.pdf`](https://www.google.com/search?q=./05/ch05.pdf&utm_source=gemini)
+* [`05/ch05.ipynb`](./05/ch05.ipynb)
+* [`05/ch05.pdf`](./05/ch05.pdf)
 
 **تعداد صفحات PDF:** 119 صفحه
 
@@ -612,9 +609,8 @@ __pycache__/
 # فصل ۰۶ – طبقه‌بندی: مفاهیم و تکنیک‌های پایه
 
 **فایل‌ها**
-
-* [`06/ch06.ipynb`](https://www.google.com/search?q=./06/ch06.ipynb&utm_source=gemini)
-* [`06/ch06.pdf`](https://www.google.com/search?q=./06/ch06.pdf&utm_source=gemini)
+* [`06/ch06.ipynb`](./06/ch06.ipynb)
+* [`06/ch06.pdf`](./06/ch06.pdf)
 
 **تعداد صفحات PDF:** 186 صفحه
 
@@ -676,8 +672,9 @@ __pycache__/
 
 **فایل‌ها**
 
-* [`07/ch07.ipynb`](https://www.google.com/search?q=./07/ch07.ipynb&utm_source=gemini)
-* [`07/ch07.pdf`](https://www.google.com/search?q=./07/ch07.pdf&utm_source=gemini)
+* [`07/ch07.ipynb`](./07/ch07.ipynb)
+* [`07/ch07.pdf`](./07/ch07.pdf)
+
 
 **تعداد صفحات PDF:** 183 صفحه
 
@@ -739,8 +736,8 @@ __pycache__/
 
 **فایل‌ها**
 
-* [`08/ch08.ipynb`](https://www.google.com/search?q=./08/ch08.ipynb&utm_source=gemini)
-* [`08/ch08.pdf`](https://www.google.com/search?q=./08/ch08.pdf&utm_source=gemini)
+* [`08/ch08.ipynb`](./08/ch08.ipynb)
+* [`08/ch08.pdf`](./08/ch08.pdf)
 
 **تعداد صفحات PDF:** 115 صفحه
 
@@ -788,8 +785,8 @@ __pycache__/
 
 **فایل‌ها**
 
-* [`09/ch09.ipynb`](https://www.google.com/search?q=./09/ch09.ipynb&utm_source=gemini)
-* [`09/ch09.pdf`](https://www.google.com/search?q=./09/ch09.pdf&utm_source=gemini)
+* [`09/ch09.ipynb`](./09/ch09.ipynb)
+* [`09/ch09.pdf`](./09/ch09.pdf)
 
 **تعداد صفحات PDF:** 125 صفحه
 
@@ -841,9 +838,8 @@ __pycache__/
 # فصل ۱۰ – یادگیری عمیق
 
 **فایل‌ها**
-
-* [`10/ch10.ipynb`](https://www.google.com/search?q=./10/ch10.ipynb&utm_source=gemini)
-* [`10/ch10.pdf`](https://www.google.com/search?q=./10/ch10.pdf&utm_source=gemini)
+* [`10/ch10.ipynb`](./10/ch10.ipynb)
+* [`10/ch10.pdf`](./10/ch10.pdf)
 
 **تعداد صفحات PDF:** 108 صفحه
 
@@ -894,8 +890,8 @@ __pycache__/
 
 **فایل‌ها**
 
-* [`11/ch11.ipynb`](https://www.google.com/search?q=./11/ch11.ipynb&utm_source=gemini)
-* [`11/ch11.pdf`](https://www.google.com/search?q=./11/ch11.pdf&utm_source=gemini)
+* [`11/ch11.ipynb`](./11/ch11.ipynb)
+* [`11/ch11.pdf`](./11/ch11.pdf)
 
 **تعداد صفحات PDF:** 141 صفحه
 
@@ -949,12 +945,8 @@ __pycache__/
 ---
 
 # فصل ۱۲ – روندهای داده‌کاوی و مرزهای پژوهشی
-
-**فایل‌ها**
-
-* [`12/ch12.ipynb`](https://www.google.com/search?q=./12/ch12.ipynb&utm_source=gemini)
-* [`12/ch12.pdf`](https://www.google.com/search?q=./12/ch12.pdf&utm_source=gemini)
-
+* [`12/ch12.ipynb`](./12/ch12.ipynb)
+* [`12/ch12.pdf`](./12/ch12.pdf)
 **تعداد صفحات PDF:** 120 صفحه
 
 ## موضوعات
@@ -1084,7 +1076,7 @@ __pycache__/
 
 نسخه کامل کتاب به‌صورت یک فایل PDF واحد شامل مطالب منتشرشده از تمامی ۱۲ فصل در مخزن موجود است:
 
-**[باز کردن PDF نسخه کامل](https://www.google.com/search?q=./Full_version/Data_Mining_Textbook.pdf&utm_source=gemini)**
+**[باز کردن PDF نسخه کامل](./Full_version/Data_Mining_Textbook.pdf)**
 
 مسیر فایل:
 
@@ -1444,7 +1436,7 @@ src/images/
 
 **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**
 
-متن حقوقی مجوز در فایل [`LICENSE`](https://www.google.com/search?q=./LICENSE&utm_source=gemini) ارائه شده است.
+متن حقوقی مجوز در فایل [`LICENSE`](./LICENSE) ارائه شده است.
 
 صفحه رسمی مجوز:
 
@@ -1461,7 +1453,7 @@ https://creativecommons.org/licenses/by-nc-nd/4.0/
 * استفاده تجاری تحت این مجوز مجاز نیست.
 * توزیع مطالب تغییر‌یافته یا اقتباس‌شده تحت این مجوز مجاز نیست.
 
-این بخش صرفاً یک خلاصه کاربردی است. مفاد حقوقی موجود در [`LICENSE`](https://www.google.com/search?q=./LICENSE&utm_source=gemini) مرجع نهایی محسوب می‌شوند.
+این بخش صرفاً یک خلاصه کاربردی است. مفاد حقوقی موجود در [`LICENSE`](./LICENSE) مرجع نهایی محسوب می‌شوند.
 
 ---
 
@@ -1590,7 +1582,7 @@ Full_version/Data_Mining_Textbook.pdf
 
 و به‌صورت مستقیم از لینک زیر نیز قابل دسترسی است:
 
-**[PDF نسخه کامل](https://www.google.com/search?q=./Full_version/Data_Mining_Textbook.pdf&utm_source=gemini)**
+**[PDF نسخه کامل](./Full_version/Data_Mining_Textbook.pdf)**
 
 ---
 
@@ -1744,7 +1736,7 @@ Jupyter Notebookها و فایل‌های PDF، محتوای آموزشی درس
 
 فایل PDF کاملی شامل کل مطالب منتشرشده کتاب در لینک زیر در دسترس است:
 
-**[PDF نسخه کامل](https://www.google.com/search?q=./Full_version/Data_Mining_Textbook.pdf&utm_source=gemini)**
+**[PDF نسخه کامل](./Full_version/Data_Mining_Textbook.pdf)**
 
 مخزن همچنین فایل‌های PDF تک‌فصل را جهت دسترسی فصل‌به‌فصل نگه‌داری می‌کند.
 
@@ -1817,13 +1809,13 @@ GitHub می‌تواند فایل‌های `.ipynb` را برای مطالعه �
 
 ## مدرس
 
-**[Dr. Amin Eskandari](https://www.google.com/search?q=https://ir.linkedin.com/in/amin-eskandari-1756a73b&utm_source=gemini)**
+**[Dr. Amin Eskandari](https://ir.linkedin.com/in/amin-eskandari-1756a73b)**
 
 ## تیم طراحی
 
-* **[Hamid Namjoo](https://www.google.com/search?q=https://hamidnamjoo.com/&utm_source=gemini)**
-* **[Amir Hossein Hemmati](https://www.google.com/search?q=https://github.com/AmirHosseinHemati&utm_source=gemini)**
-* **[Amir Mohammad Asadjoo](https://www.google.com/search?q=https://github.com/Amir-Mohammd-Asadjoo&utm_source=gemini)**
+* **[Hamid Namjoo](https://hamidnamjoo.com/)**
+* **[Amir Hossein Hemmati](https://github.com/AmirHosseinHemati)**
+* **[Amir Mohammad Asadjoo](https://github.com/Amir-Mohammd-Asadjoo)**
 * **Ali Nikvan**
 * **Reza Liaqat**
 * **Alireza Moghaddas**
